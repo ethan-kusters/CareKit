@@ -1,0 +1,238 @@
+{
+  "abstract" : [
+    {
+      "text" : "An aggregator used to derive an adherence value from a series of events.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceQuery"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceQuery\/aggregator"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12CareKitStore17OCKAdherenceQueryV10aggregatorAA0D10AggregatorOvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "aggregator"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore22OCKAdherenceAggregatorO",
+        "text" : "OCKAdherenceAggregator"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitStore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "aggregator"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "aggregator"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceAggregator",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore22OCKAdherenceAggregatorO",
+              "text" : "OCKAdherenceAggregator"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitstore\/ockadherencequery\/aggregator"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAdherenceAggregator": {
+  "abstract" : [
+    {
+      "text" : "An enumerator that specifies a number of methods for computing an adherence value given an array of events.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceAggregator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceAggregator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceAggregator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAdherenceAggregator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockadherenceaggregator"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAdherenceQuery": {
+  "abstract" : [
+    {
+      "code" : "OCKAdherenceQuery",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is used to constrain the results returned when fetching adherence from a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAdherenceQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockadherencequery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAdherenceQuery/aggregator": {
+  "abstract" : [
+    {
+      "text" : "An aggregator used to derive an adherence value from a series of events.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aggregator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore22OCKAdherenceAggregatorO",
+      "text" : "OCKAdherenceAggregator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceQuery\/aggregator",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "aggregator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockadherencequery\/aggregator"
+}
+}
+}

@@ -1,0 +1,246 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler\/buttonHeight4-9oq5h"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler\/buttonHeight4-9qiq"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "CareKitUI",
+    "externalID" : "s:9CareKitUI18OCKDimensionStylerPAAE13buttonHeight412CoreGraphics7CGFloatVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "buttonHeight4"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+        "text" : "CGFloat"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitUI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "buttonHeight4"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "buttonHeight4"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+              "text" : "CGFloat"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitui\/ockdimensionstyler\/buttonheight4-9qiq"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitUI",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDimensionStyler": {
+  "abstract" : [
+    {
+      "text" : "Defines constants for view dimension styling.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDimensionStyler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDimensionStyler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDimensionStyler",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdimensionstyler"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDimensionStyler/buttonHeight4-9oq5h": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buttonHeight4"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler\/buttonHeight4-9oq5h",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "buttonHeight4",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdimensionstyler\/buttonheight4-9oq5h"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDimensionStyler/buttonHeight4-9qiq": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buttonHeight4"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler\/buttonHeight4-9qiq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buttonHeight4",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdimensionstyler\/buttonheight4-9qiq"
+}
+}
+}

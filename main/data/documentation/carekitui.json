@@ -1,0 +1,2852 @@
+{
+  "abstract" : [
+    {
+      "text" : "",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "CareKitUI",
+    "modules" : [
+      {
+        "name" : "CareKitUI"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "CareKitUI"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAddressButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAnimatedButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKButtonLogTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCartesianChartView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCartesianGraphView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChecklistItemButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChecklistTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCheckmarkButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDetailView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDetailedContactView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKFeaturedContentView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKGridTaskCell",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKGridTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKHeaderView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKInstructionsTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLabel",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLabeledButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLabeledCheckmarkButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLocalization",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLogButtonCell",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLogItemButton",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLogTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKSeparatorView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKSimpleContactView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKSimpleTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStackView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKWeekCalendarView"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAnimationStyler",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCalendarDisplayable",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCalendarViewDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCardable",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChartDisplayable",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChartViewDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyler",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactDisplayable",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactViewDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKFeaturedContentViewDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStylable",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStyler",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskDisplayable",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskViewDelegate"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/CardView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/CircularCompletionView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/HeaderView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/InstructionsTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LabeledValueTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LinkView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/NumericProgressTaskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAnimationStyle",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyle",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDataSeries",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyle",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLog",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKResponsiveLayout",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStyle",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/RectangularCompletionView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/SimpleTaskView"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/loc(_:_:arguments:)"
+      ],
+      "title" : "Functions"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LabeledValueTaskViewState",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LinkItem",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionState"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitui"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitUI",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/CardView": {
+  "abstract" : [
+    {
+      "text" : "A card whose content can be injected.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CardView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/CardView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CardView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CardView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/cardview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/CircularCompletionView": {
+  "abstract" : [
+    {
+      "text" : "A view that denotes a completion state. The style of the view differs based on the completion state. The circle will encompass the frame",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "of the provided ",
+      "type" : "text"
+    },
+    {
+      "code" : "content",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". To ensure the content is contained within the circle, make sure the content has a square frame.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CircularCompletionView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/CircularCompletionView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CircularCompletionView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CircularCompletionView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/circularcompletionview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/HeaderView": {
+  "abstract" : [
+    {
+      "text" : "Header used for most CareKit cards.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HeaderView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/HeaderView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HeaderView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HeaderView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/headerview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/InstructionsTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header view, multi-line label, and a completion button.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InstructionsTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/InstructionsTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InstructionsTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InstructionsTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/instructionstaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/LabeledValueTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header and a labeled value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LabeledValueTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LabeledValueTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LabeledValueTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LabeledValueTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/labeledvaluetaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/LabeledValueTaskViewState": {
+  "abstract" : [
+    {
+      "text" : "The completion state of a ",
+      "type" : "text"
+    },
+    {
+      "code" : "LabeledValueTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LabeledValueTaskViewState"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LabeledValueTaskViewState",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LabeledValueTaskViewState"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LabeledValueTaskViewState",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/labeledvaluetaskviewstate"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/LinkItem": {
+  "abstract" : [
+    {
+      "text" : "A link item tied to a button in the ",
+      "type" : "text"
+    },
+    {
+      "code" : "LinkView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LinkItem"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LinkItem",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LinkItem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LinkItem",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/linkitem"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/LinkView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays multiple link buttons. Links buttons are capable of showing content in or out of app. Link buttons can be",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "configured using a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Link",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LinkView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/LinkView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LinkView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LinkView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/linkview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/NumericProgressTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header, instructions, and indicators for progress and goal values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NumericProgressTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/NumericProgressTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NumericProgressTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NumericProgressTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/numericprogresstaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAddressButton": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAddressButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAddressButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAddressButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAddressButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockaddressbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAnimatedButton": {
+  "abstract" : [
+    {
+      "text" : "A highlightable and selectable button that can be animated. The ",
+      "type" : "text"
+    },
+    {
+      "code" : "isHighlighted",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " state can be specified with options, and the ",
+      "type" : "text"
+    },
+    {
+      "code" : "isSelected",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " state",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "can be handled automatically when the button is tapped.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnimatedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAnimatedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnimatedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnimatedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockanimatedbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAnimationStyle": {
+  "abstract" : [
+    {
+      "text" : "Concrete object for animation constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnimationStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAnimationStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnimationStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnimationStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockanimationstyle"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAnimationStyler": {
+  "abstract" : [
+    {
+      "text" : "Defines constants for values used during animations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnimationStyler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAnimationStyler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnimationStyler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnimationStyler",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockanimationstyler"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyle": {
+  "abstract" : [
+    {
+      "text" : "Concrete object for appearance constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAppearanceStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyle"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler": {
+  "abstract" : [
+    {
+      "text" : "Defines constants for view appearance styling.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAppearanceStyler",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKButtonLogTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header, multi-line label, a collection of log buttons, and a dynamic vertical stack of logged items.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "In CareKit, this view is intended to display a particular event for a task. When the log button is presses,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "a new outcome is created for the event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKButtonLogTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockbuttonlogtaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCalendarDisplayable": {
+  "abstract" : [
+    {
+      "text" : "Any object that can display and handle interactions with a calendar. A calendar displays information about a specified range of days.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarDisplayable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCalendarDisplayable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarDisplayable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarDisplayable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcalendardisplayable"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCalendarViewDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events related to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKCalendarDisplayable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCalendarViewDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarViewDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcalendarviewdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCardable": {
+  "abstract" : [
+    {
+      "text" : "Has the ability to display one’s self as a card. A card has a particular corner",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "radius and shadow.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCardable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCardable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCardable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCardable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcardable"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCartesianChartView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCartesianChartView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCartesianChartView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcartesianchartview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCartesianGraphView": {
+  "abstract" : [
+    {
+      "text" : "Displays a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKMultiGraphableView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " above an axis. The initializer takes an enum ",
+      "type" : "text"
+    },
+    {
+      "code" : "PlotType",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that allows you to choose from",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "several common graph types.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianGraphView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCartesianGraphView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianGraphView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCartesianGraphView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcartesiangraphview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKChartDisplayable": {
+  "abstract" : [
+    {
+      "text" : "Any object that can display and handle interactions with a chart.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartDisplayable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChartDisplayable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartDisplayable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChartDisplayable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockchartdisplayable"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKChartViewDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events related to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKChartDisplayable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChartViewDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChartViewDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockchartviewdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKChecklistItemButton": {
+  "abstract" : [
+    {
+      "text" : "A button with an icon and title label.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistItemButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChecklistItemButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistItemButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChecklistItemButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockchecklistitembutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKChecklistTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a vertically stacked checklist of items. In CareKit, this view is intended to display",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "multiple events for a particular task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKChecklistTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChecklistTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockchecklisttaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCheckmarkButton": {
+  "abstract" : [
+    {
+      "text" : "A button that shows a checkmark in the selected state, and an empty ring in the deselected state.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCheckmarkButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCheckmarkButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCheckmarkButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCheckmarkButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcheckmarkbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle": {
+  "abstract" : [
+    {
+      "text" : "Concrete object for color constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKColorStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKColorStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKColorStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyler": {
+  "abstract" : [
+    {
+      "text" : "Defines color constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKColorStyler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKColorStyler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKColorStyler",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyler"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton": {
+  "abstract" : [
+    {
+      "text" : "A selectable completion ring with an inner check view and a title label.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCompletionRingButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingView": {
+  "abstract" : [
+    {
+      "text" : "A fillable ring with an inner checkmark.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCompletionRingView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionState": {
+  "abstract" : [
+    {
+      "text" : "A completion state that marks progress.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionState"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionState",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionState"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCompletionState",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionstate"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKContactButton": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcontactbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKContactDisplayable": {
+  "abstract" : [
+    {
+      "text" : "Any object that can display and handle interactions with a contact.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactDisplayable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactDisplayable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactDisplayable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactDisplayable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcontactdisplayable"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKContactViewDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events related to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKContactDisplayable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactViewDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactViewDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcontactviewdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDataSeries": {
+  "abstract" : [
+    {
+      "text" : "Represents a single group of data to be plotted. In most cases, CareKit plots accept multiple data",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "series, allowing for for several data series to be plotted on a single axis for easy comparison.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeries"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDataSeries",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeries"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDataSeries",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdataseries"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDetailView": {
+  "abstract" : [
+    {
+      "text" : "A scrollable view with an image header and text content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDetailView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDetailView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdetailview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDetailedContactView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays information for a contact. The header is an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKHeaderView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The body contains a multi-line instructions label, and four buttons; call, message,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "email, and address. The first three buttons have title labels and image views that can",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "be modified, while the last has a title label, body label, and image view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDetailedContactView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDetailedContactView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdetailedcontactview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDimensionStyle": {
+  "abstract" : [
+    {
+      "text" : "Concrete object for dimension constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDimensionStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDimensionStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDimensionStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdimensionstyle"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDimensionStyler": {
+  "abstract" : [
+    {
+      "text" : "Defines constants for view dimension styling.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDimensionStyler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDimensionStyler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDimensionStyler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDimensionStyler",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdimensionstyler"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKFeaturedContentView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a large background image. The whole view is tappable.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKFeaturedContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKFeaturedContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKFeaturedContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKFeaturedContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockfeaturedcontentview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKFeaturedContentViewDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events for an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKFeaturedContentView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKFeaturedContentViewDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKFeaturedContentViewDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKFeaturedContentViewDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKFeaturedContentViewDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockfeaturedcontentviewdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKGridTaskCell": {
+  "abstract" : [
+    {
+      "text" : "A cell used in the ",
+      "type" : "text"
+    },
+    {
+      "code" : "collectionView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKGridTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". The cell shows a circular ",
+      "type" : "text"
+    },
+    {
+      "code" : "completionButton",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that has an image and a",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "titleLabel",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". The default image is a checkmark.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskCell"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKGridTaskCell",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskCell"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskCell",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockgridtaskcell"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKGridTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header, grid of buttons, and a multi-line label In CareKit, this view is intended to display",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "multiple events for a particular task. The state of each button in the grid indicates the completion state of the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "corresponding event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKGridTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockgridtaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKHeaderView": {
+  "abstract" : [
+    {
+      "text" : "A title and detail label. The view can also be configured to show a separator,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "icon image, and a detail disclosure arrow.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHeaderView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKHeaderView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHeaderView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHeaderView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockheaderview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKInstructionsTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header, multi-line label, and a completion button. In CareKit, this view is",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "intended to display a particular event for a task. The state of the completion button indicates",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the completion state of the event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKInstructionsTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockinstructionstaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLabel": {
+  "abstract" : [
+    {
+      "text" : "A label that handles animating state changes and provides accessibility features.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLabel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLabel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklabel"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLabeledButton": {
+  "abstract" : [
+    {
+      "text" : "A button with a filled background color.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLabeledButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLabeledButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklabeledbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLabeledCheckmarkButton": {
+  "abstract" : [
+    {
+      "text" : "OCKCheckmarkButton button with a label.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledCheckmarkButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLabeledCheckmarkButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledCheckmarkButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLabeledCheckmarkButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklabeledcheckmarkbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLocalization": {
+  "abstract" : [
+    {
+      "text" : "A hook for the free function ",
+      "type" : "text"
+    },
+    {
+      "code" : "loc",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to access the framework bundle for localizations",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLocalization"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLocalization",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLocalization"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLocalization",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklocalization"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLog": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLog"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLog",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLog"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLog",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklog"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLogButtonCell": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLogButtonCell"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLogButtonCell",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLogButtonCell"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLogButtonCell",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklogbuttoncell"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLogItemButton": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLogItemButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLogItemButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLogItemButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLogItemButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklogitembutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKLogTaskView": {
+  "abstract" : [
+    {
+      "text" : "Base class for all log view. Shows an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKHeaderView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and a dynamic stack view of log items.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLogTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKLogTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLogTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLogTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocklogtaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKResponsiveLayout": {
+  "abstract" : [
+    {
+      "text" : "Accessible view configuration that contains layout information for different ",
+      "type" : "text"
+    },
+    {
+      "code" : "UserInterfaceSizeClass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and ",
+      "type" : "text"
+    },
+    {
+      "code" : "UIContentSizeCategory",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " combinations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKResponsiveLayout"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKResponsiveLayout",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKResponsiveLayout"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKResponsiveLayout",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockresponsivelayout"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKSeparatorView": {
+  "abstract" : [
+    {
+      "text" : "Horizontal separator view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSeparatorView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKSeparatorView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSeparatorView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSeparatorView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockseparatorview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKSimpleContactView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays information for a contact. The header is an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKHeaderView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKSimpleContactView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleContactView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocksimplecontactview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKSimpleTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKHeaderView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and a circular checkmark button ",
+      "type" : "text"
+    },
+    {
+      "code" : "completionButton",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "In CareKit, this view is intended to display a particular event for a task. The state of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "completionButton",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "indicates the completion state of the event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKSimpleTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocksimpletaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKStackView": {
+  "abstract" : [
+    {
+      "text" : "A stack view that supports animating showing\/hiding arranged subviews,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and has the option of dynamically creating separators when arranged subviews are added.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStackView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStackView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStackView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStackView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockstackview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKStylable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStylable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStylable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStylable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStylable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockstylable"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockstyle"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKStyler": {
+  "abstract" : [
+    {
+      "text" : "Defines styling constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStyler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKStyler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStyler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStyler",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockstyler"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKTaskDisplayable": {
+  "abstract" : [
+    {
+      "text" : "Any object that can display and handle interactions with a task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskDisplayable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskDisplayable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskDisplayable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskDisplayable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocktaskdisplayable"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKTaskViewDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events related to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKTaskDisplayable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskViewDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocktaskviewdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKWeekCalendarView": {
+  "abstract" : [
+    {
+      "text" : "A horizontal row of seven selectable completion rings and corresponding labels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKWeekCalendarView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWeekCalendarView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockweekcalendarview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/RectangularCompletionView": {
+  "abstract" : [
+    {
+      "text" : "A view that denotes a completion state. The style of the view differs based on the completion state.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RectangularCompletionView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/RectangularCompletionView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RectangularCompletionView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RectangularCompletionView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/rectangularcompletionview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/SimpleTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header view and a completion view. The whole view is tappable.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SimpleTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/SimpleTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SimpleTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SimpleTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/simpletaskview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/loc(_:_:arguments:)": {
+  "abstract" : [
+    {
+      "text" : "A localization string wrapper to access framework specific strings",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loc"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arguments"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7CVarArgP",
+      "text" : "CVarArg"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/loc(_:_:arguments:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "loc(_:_:arguments:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/loc(_:_:arguments:)"
+}
+}
+}

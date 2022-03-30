@@ -1,0 +1,259 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Collection.Iterator",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents\/Iterator"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit13OCKTaskEventsV8Iteratora",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Iterator"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Iterator"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "OCKTaskEvents.Iterator"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Iterator"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa",
+              "text" : "Array"
+            },
+            {
+              "kind" : "text",
+              "text" : "<["
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEvent",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore11OCKAnyEventV",
+              "text" : "OCKAnyEvent"
+            },
+            {
+              "kind" : "text",
+              "text" : "]>."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sa8Iteratora",
+              "text" : "Iterator"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ocktaskevents\/iterator"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskEvents": {
+  "abstract" : [
+    {
+      "text" : "A data structure that holds events for multiple tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskEvents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskevents"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskEvents/Iterator": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Iterator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents\/Iterator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Iterator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskEvents.Iterator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskevents\/iterator"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyEvent": {
+  "abstract" : [
+    {
+      "text" : "An event represents a single occassion on which a task was scheduled to occur. It contains a copy of the task itself as well as the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "schedule event and an outcome that will be non-nil if progress was made on the task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEvent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEvent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEvent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyEvent",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyevent"
+}
+}
+}

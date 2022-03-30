@@ -1,0 +1,307 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit32OCKNumericProgressTaskControllerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKNumericProgressTaskController"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKNumericProgressTaskController"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OCKNumericProgressTaskController"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKNumericProgressTaskController"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/7Combine16ObservableObjectP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController\/init(storeManager:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController\/viewModel"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ocknumericprogresstaskcontroller"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKNumericProgressTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKNumericProgressTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKNumericProgressTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKNumericProgressTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocknumericprogresstaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKNumericProgressTaskController/init(storeManager:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize with a store manager.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController\/init(storeManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(storeManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocknumericprogresstaskcontroller\/init(storemanager:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKNumericProgressTaskController/viewModel": {
+  "abstract" : [
+    {
+      "text" : "Data used to create a ",
+      "type" : "text"
+    },
+    {
+      "code" : "CareKitUI.NumericProgressTaskTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "viewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit28NumericProgressTaskViewModelV",
+      "text" : "NumericProgressTaskViewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController\/viewModel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "viewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocknumericprogresstaskcontroller\/viewmodel"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of watching and updating tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller"
+}
+}
+}

@@ -1,0 +1,211 @@
+{
+  "abstract" : [
+    {
+      "text" : "The progress value of the ring view.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingView\/progress"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9CareKitUI21OCKCompletionRingViewC8progress12CoreGraphics7CGFloatVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "progress"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+        "text" : "CGFloat"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitUI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "progress"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "progress"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+              "text" : "CGFloat"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitui\/ockcompletionringview\/progress"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitUI",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingView": {
+  "abstract" : [
+    {
+      "text" : "A fillable ring with an inner checkmark.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCompletionRingView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingView/progress": {
+  "abstract" : [
+    {
+      "text" : "The progress value of the ring view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "progress"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingView\/progress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "progress",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringview\/progress"
+}
+}
+}

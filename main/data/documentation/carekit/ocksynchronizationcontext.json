@@ -1,0 +1,360 @@
+{
+  "abstract" : [
+    {
+      "text" : "Provides context for a view model value.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit25OCKSynchronizationContextV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKSynchronizationContext"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKSynchronizationContext"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "OCKSynchronizationContext"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKSynchronizationContext"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "ViewModel"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/init(viewModel:oldViewModel:animated:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/animated",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/oldViewModel",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/viewModel"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ocksynchronizationcontext"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext": {
+  "abstract" : [
+    {
+      "text" : "Provides context for a view model value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizationContext",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext/animated": {
+  "abstract" : [
+    {
+      "text" : "Animated flag.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "animated"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/animated",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "animated",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext\/animated"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext/init(viewModel:oldViewModel:animated:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV9ViewModelxmfp",
+      "text" : "ViewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "oldViewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV9ViewModelxmfp",
+      "text" : "ViewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "animated"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/init(viewModel:oldViewModel:animated:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(viewModel:oldViewModel:animated:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext\/init(viewmodel:oldviewmodel:animated:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext/oldViewModel": {
+  "abstract" : [
+    {
+      "text" : "The previous view model value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "oldViewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV9ViewModelxmfp",
+      "text" : "ViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/oldViewModel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "oldViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext\/oldviewmodel"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext/viewModel": {
+  "abstract" : [
+    {
+      "text" : "The current view model value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "viewModel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV9ViewModelxmfp",
+      "text" : "ViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext\/viewModel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "viewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext\/viewmodel"
+}
+}
+}

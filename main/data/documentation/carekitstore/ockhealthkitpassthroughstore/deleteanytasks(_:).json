@@ -1,0 +1,402 @@
+{
+  "abstract" : [
+    {
+      "code" : "deleteAnyTasks",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " asynchronously deletes an array of tasks from the store.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyTaskStore-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/deleteAnyTasks(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "CareKitStore",
+    "externalID" : "s:12CareKitStore010OCKAnyTaskC0PAAE14deleteAnyTasksySayAA0dE0_pGAFYaKF::SYNTHESIZED::s:12CareKitStore09OCKHealthb11PassthroughC0C",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "deleteAnyTasks"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+        "text" : "OCKAnyTask"
+      },
+      {
+        "kind" : "text",
+        "text" : "]) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+        "text" : "OCKAnyTask"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitStore"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "15.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "deleteAnyTasks(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "deleteAnyTasks"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "tasks"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTask",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+              "text" : "OCKAnyTask"
+            },
+            {
+              "kind" : "text",
+              "text" : "]) "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> ["
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTask",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+              "text" : "OCKAnyTask"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An array of tasks to be deleted. The tasks must exist in the store.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "tasks"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/deleteanytasks(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyTask": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTask"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTask",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTask"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTask",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanytask"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore": {
+  "abstract" : [
+    {
+      "text" : "A specialized store that transparently manipulates outcomes in HealthKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitPassthroughStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitPassthroughStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitPassthroughStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKAnyTaskStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyTaskStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyTaskStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockanytaskstore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/deleteAnyTasks(_:)": {
+  "abstract" : [
+    {
+      "code" : "deleteAnyTasks",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " asynchronously deletes an array of tasks from the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deleteAnyTasks"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/deleteAnyTasks(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deleteAnyTasks(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/deleteanytasks(_:)"
+}
+}
+}

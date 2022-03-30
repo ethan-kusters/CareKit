@@ -1,0 +1,359 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12CareKitStore09OCKHealthB7LinkageV12QuantityTypeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "QuantityType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitStore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "QuantityType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "OCKHealthKitLinkage.QuantityType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "QuantityType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/Se",
+        "doc:\/\/com.apple.CareKit\/SE",
+        "doc:\/\/com.apple.CareKit\/SQ",
+        "doc:\/\/com.apple.CareKit\/SH",
+        "doc:\/\/com.apple.CareKit\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/cumulative",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/discrete"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/Equatable-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitstore\/ockhealthkitlinkage\/quantitytype-swift.enum"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/SE": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/SH": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/SQ": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/SY": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/Se": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage": {
+  "abstract" : [
+    {
+      "text" : "Describes how a task outcome values should be retrieved from HealthKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitLinkage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitLinkage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitLinkage",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage/QuantityType-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "QuantityType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "QuantityType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitLinkage.QuantityType",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage\/quantitytype-swift.enum"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage/QuantityType-swift.enum/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage\/quantitytype-swift.enum\/equatable-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage/QuantityType-swift.enum/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage\/quantitytype-swift.enum\/rawrepresentable-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage/QuantityType-swift.enum/cumulative": {
+  "abstract" : [
+    {
+      "text" : "Quantities that are defined over a period of time, such as step count or calories burned.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cumulative"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/cumulative",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "OCKHealthKitLinkage.QuantityType.cumulative",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage\/quantitytype-swift.enum\/cumulative"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage/QuantityType-swift.enum/discrete": {
+  "abstract" : [
+    {
+      "text" : "Quantities that are defined at a single point in time, such as heart rate or blood oxygen level.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "discrete"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/discrete",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "OCKHealthKitLinkage.QuantityType.discrete",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage\/quantitytype-swift.enum\/discrete"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage/QuantityType-swift.enum/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage\/QuantityType-swift.enum\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage\/quantitytype-swift.enum\/init(rawvalue:)"
+}
+}
+}

@@ -1,0 +1,418 @@
+{
+  "abstract" : [
+    {
+      "text" : "Called each time outcomes are updated in the store.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didUpdateOutcomes:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit27OCKSynchronizedStoreManagerC07outcomeD0_17didUpdateOutcomesy0abD0021OCKAnyReadOnlyOutcomeD0_p_SayAF0jM0_pGtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "outcomeStore"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyOutcomeC0P",
+        "text" : "OCKAnyReadOnlyOutcomeStore"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "didUpdateOutcomes"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+        "text" : "OCKAnyOutcome"
+      },
+      {
+        "kind" : "text",
+        "text" : "])"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "outcomeStore(_:didUpdateOutcomes:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "outcomeStore"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "store"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyOutcomeStore",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyOutcomeC0P",
+              "text" : "OCKAnyReadOnlyOutcomeStore"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "didUpdateOutcomes"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "outcomes"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcome",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+              "text" : "OCKAnyOutcome"
+            },
+            {
+              "kind" : "text",
+              "text" : "])"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The store which was modified.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "store"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The outcomes that were updated in the store.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "outcomes"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ocksynchronizedstoremanager\/outcomestore(_:didupdateoutcomes:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSynchronizedStoreManager",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " wraps any store that conforms to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and provides synchronization to CareKit view",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "controllers by listening in on the store’s activity by setting itself as the store delegate.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizedStoreManager",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/outcomeStore(_:didUpdateOutcomes:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time outcomes are updated in the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyOutcomeC0P",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdateOutcomes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didUpdateOutcomes:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outcomeStore(_:didUpdateOutcomes:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/outcomestore(_:didupdateoutcomes:)"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyOutcome": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyOutcome",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyoutcome"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyOutcomeStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlyoutcomestore"
+}
+}
+}

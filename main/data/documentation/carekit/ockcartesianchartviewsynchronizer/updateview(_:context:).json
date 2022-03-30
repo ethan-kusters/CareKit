@@ -1,0 +1,448 @@
+{
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewSynchronizer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewSynchronizer\/updateView(_:context:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit33OCKCartesianChartViewSynchronizerC06updateE0_7contexty0aB2UI0cdE0C_AA25OCKSynchronizationContextVySayAF13OCKDataSeriesVGGtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "updateView"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKCartesianChartView",
+        "text" : "OCKCartesianChartView"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "context"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+        "text" : "OCKSynchronizationContext"
+      },
+      {
+        "kind" : "text",
+        "text" : "<["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9CareKitUI13OCKDataSeriesV",
+        "text" : "OCKDataSeries"
+      },
+      {
+        "kind" : "text",
+        "text" : "]>)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "updateView(_:context:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "updateView"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "view"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCartesianChartView",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKCartesianChartView",
+              "text" : "OCKCartesianChartView"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "context"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+              "text" : "OCKSynchronizationContext"
+            },
+            {
+              "kind" : "text",
+              "text" : "<["
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDataSeries",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9CareKitUI13OCKDataSeriesV",
+              "text" : "OCKDataSeries"
+            },
+            {
+              "kind" : "text",
+              "text" : "]>)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The view to be updated.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "view"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Information about the update that is occurring.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "context"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockcartesianchartviewsynchronizer\/updateview(_:context:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCartesianChartViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A chart view controller capable of displaying charts drawn on a Cartesian coordinate system.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCartesianChartViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcartesianchartviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCartesianChartViewSynchronizer/updateView(_:context:)": {
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKCartesianChartView",
+      "text" : "OCKCartesianChartView"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+      "text" : "OCKSynchronizationContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI13OCKDataSeriesV",
+      "text" : "OCKDataSeries"
+    },
+    {
+      "kind" : "text",
+      "text" : "]>)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewSynchronizer\/updateView(_:context:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "updateView(_:context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcartesianchartviewsynchronizer\/updateview(_:context:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext": {
+  "abstract" : [
+    {
+      "text" : "Provides context for a view model value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizationContext",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCartesianChartView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCartesianChartView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCartesianChartView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcartesianchartview"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKDataSeries": {
+  "abstract" : [
+    {
+      "text" : "Represents a single group of data to be plotted. In most cases, CareKit plots accept multiple data",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "series, allowing for for several data series to be plotted on a single axis for easy comparison.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeries"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKDataSeries",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeries"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDataSeries",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockdataseries"
+}
+}
+}

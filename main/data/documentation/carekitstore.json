@@ -1,0 +1,3809 @@
+{
+  "abstract" : [
+    {
+      "text" : "",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "CareKitStore",
+    "modules" : [
+      {
+        "name" : "CareKitStore"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "CareKitStore"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPostalAddress",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStoreCoordinator",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKWatchConnectivityPeer"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyCarePlan",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyCarePlanStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyContact",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyContactStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcome",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyPatient",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyPatientStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyCarePlanStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyContactStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyPatientStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyTaskStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyResettableStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTask",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTaskStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyVersionableTask",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeValueUnderlyingType",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadOnlyEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableCarePlanStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableContactStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadablePatientStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableTaskStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKRemoteSynchronizable",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKRemoteSynchronizationDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKResetDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStoreDelegate"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEvent",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlan",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContact",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEvent",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitOutcome",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitTask",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKInsightQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKLabeledValue",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKLog",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKNote",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcome",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeValue",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatient",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKRevisionRecord",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKSchedule",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKScheduleElement",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKScheduleEvent",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKSemanticVersion",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTask",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyStoreProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKResultClosure",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStoreProtocol"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherence",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceAggregator",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKBiologicalSex",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactCategory",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCoreDataStoreType",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEntity",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventAggregator",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeValueType",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStoreError"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitstore"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAdherence": {
+  "abstract" : [
+    {
+      "code" : "OCKAdherence",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " specifies how many of their assigned tasks a patient has completed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherence"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherence",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherence"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAdherence",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockadherence"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAdherenceAggregator": {
+  "abstract" : [
+    {
+      "text" : "An enumerator that specifies a number of methods for computing an adherence value given an array of events.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceAggregator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceAggregator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceAggregator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAdherenceAggregator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockadherenceaggregator"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAdherenceQuery": {
+  "abstract" : [
+    {
+      "code" : "OCKAdherenceQuery",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is used to constrain the results returned when fetching adherence from a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAdherenceQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAdherenceQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAdherenceQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockadherencequery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyCarePlan": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyCarePlan"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyCarePlan",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyCarePlan"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyCarePlan",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanycareplan"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyCarePlanStore": {
+  "abstract" : [
+    {
+      "text" : "Any store able to write to one ore more types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyCarePlanStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyCarePlanStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyCarePlanStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyCarePlanStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyCarePlanStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanycareplanstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyContact": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyContact",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContact"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyContact",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContact"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyContact",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanycontact"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyContactStore": {
+  "abstract" : [
+    {
+      "text" : "Any store able to write to one ore more types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyContact",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyContactStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContactStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyContactStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContactStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyContactStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanycontactstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyEvent": {
+  "abstract" : [
+    {
+      "text" : "An event represents a single occassion on which a task was scheduled to occur. It contains a copy of the task itself as well as the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "schedule event and an outcome that will be non-nil if progress was made on the task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEvent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEvent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEvent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyEvent",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyevent"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyEvent",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s  can be queried and also written is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyOutcome": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyOutcome",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyoutcome"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyOutcomeStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyPatient": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyPatient",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyPatient"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyPatient",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyPatient"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyPatient",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanypatient"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyPatientStore": {
+  "abstract" : [
+    {
+      "text" : "Any store able to write to one ore more types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyPatient",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyPatientStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyPatientStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyPatientStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyPatientStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyPatientStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanypatientstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyCarePlanStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyCarePlanStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyCarePlanStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyCarePlanStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyCarePlanStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyCarePlanStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlycareplanstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyContactStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyContact",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyContactStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyContactStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyContactStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyContactStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyContactStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlycontactstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyEvent",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s  can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlyeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyOutcomeStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlyoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyPatientStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyPatient",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyPatientStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyPatientStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyPatientStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyPatientStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyPatientStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlypatientstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlytaskstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyResettableStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyResettableStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyResettableStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyResettableStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyResettableStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyresettablestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyStoreProtocol": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyStoreProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyStoreProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyStoreProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyStoreProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanystoreprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyTask": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTask"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTask",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTask"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTask",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanytask"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store able to write to one ore more types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanytaskstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyVersionableTask": {
+  "abstract" : [
+    {
+      "text" : "Any task that has a notion of versioning and is persisted in a database.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Conforming a store’s task type to this protocol allows CareKit to provide",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "default implementations for ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKReadOnlyEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " methods.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyVersionableTask"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyVersionableTask",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyVersionableTask"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyVersionableTask",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyversionabletask"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKBiologicalSex": {
+  "abstract" : [
+    {
+      "text" : "Represents a person’s biological sex.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKBiologicalSex"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKBiologicalSex",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKBiologicalSex"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKBiologicalSex",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockbiologicalsex"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKCarePlan": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " represents a set of tasks, including both interventions and assesments, that a patient is supposed to complete as part of his",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "or her treatment for a specific condition. For example, a care plan for obesity may include tasks requiring the patient to exercise, record their",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "weight, and log meals. As the care plan evolves with the patient’s progress, the care provider may modify the exercises and include notes each",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "time about why the changes were made.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlan"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlan",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlan"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCarePlan",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcareplan"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKCarePlanQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which care plans will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCarePlanQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcareplanquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKCarePlanStore": {
+  "abstract" : [
+    {
+      "text" : "Any store that can perform read and write operations on a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKCarePlanStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCarePlanStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcareplanstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKCarePlanStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from care plan stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCarePlanStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcareplanstoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKContact": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKContact",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " represents a contact that a user may want to get in touch with. A contact may be a care provider, a friend, or a family",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "member. Contacts must have at least a name, and may optionally have numerous other addresses at which to be contacted.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContact"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContact",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContact"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContact",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcontact"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKContactCategory": {
+  "abstract" : [
+    {
+      "text" : "An enumerator specifying which group a contact belongs to.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactCategory"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactCategory",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactCategory"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactCategory",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcontactcategory"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKContactQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which contacts will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcontactquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKContactStore": {
+  "abstract" : [
+    {
+      "text" : "Any store that can perform read and write operations on a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyContact",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKCarePlanStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcontactstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKContactStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from contact stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcontactstoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKCoreDataStoreType": {
+  "abstract" : [
+    {
+      "text" : "An enumerator specifying the type of stores that may be chosen.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCoreDataStoreType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCoreDataStoreType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCoreDataStoreType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCoreDataStoreType",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcoredatastoretype"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEntity": {
+  "abstract" : [
+    {
+      "text" : "Holds one of several possible modified entities.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEntity"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEntity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEntity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEntity",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockentity"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEvent": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKEvent",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " represents a single occasion on which a task was scheduled to occur. It contains a copy of the task itself as well as the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "schedule event and an outcome that will be non-nil if progress was made on the task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEvent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEvent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEvent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEvent",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockevent"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEventAggregator": {
+  "abstract" : [
+    {
+      "text" : "An enumerator that specifies a number of methods for computing a value given an array of events that occurred on some day.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventAggregator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventAggregator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventAggregator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEventAggregator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockeventaggregator"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEventQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which events will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEventQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockeventquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store in which a single event type can be both queried and written is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitLinkage": {
+  "abstract" : [
+    {
+      "text" : "Describes how a task outcome values should be retrieved from HealthKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitLinkage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitLinkage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitLinkage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitLinkage",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitlinkage"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitoutcome"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore": {
+  "abstract" : [
+    {
+      "text" : "A specialized store that transparently manipulates outcomes in HealthKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitPassthroughStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitPassthroughStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitPassthroughStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitTask": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKHealthKitTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " represents some task or action that a patient is supposed to perform. Tasks are optionally associable with an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and must have a unique id and schedule. The schedule determines when and how often the task should be performed, and the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "impactsAdherence",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " flag may be used to specify whether or not the patients adherence to this task will affect their daily completion rings.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitTask"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitTask",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitTask"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitTask",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkittask"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKInsightQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which events will be returned when computing insights.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInsightQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKInsightQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInsightQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInsightQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockinsightquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKLabeledValue": {
+  "abstract" : [
+    {
+      "text" : "An optional label paired with a value used to represent contact information.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The label will typically indicate what kind of information the value carries.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledValue"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKLabeledValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLabeledValue",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocklabeledvalue"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKLog": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLog"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKLog",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLog"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLog",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocklog"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKNote": {
+  "abstract" : [
+    {
+      "code" : "OCKNote",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be attached to all other CareKit objects and values. Use cases may include a physician leaving a note on a task when it is modified",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "to explain why a medication dose was changed, or a note left from a patient to a care provider explaining why they weren’t able to complete a",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "task on a certain occasion.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKNote"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKNote",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKNote"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKNote",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocknote"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcome": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKOutcome",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " represents the outcome of an event corresponding to a task. An outcome may have 0 or more values associated with it.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For example, a task that asks a patient to measure their temperature will have events whose outcome will contain a single value representing",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the patient’s temperature.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcome"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which outcomes will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomequery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from outcome stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomestoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeValue": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKOutcomeValue",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a representation of any response of measurement that a user gives in response to a task. The underlying type could be",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "any of a number of types including integers, booleans, dates, text, and binary data, among others.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeValue"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeValue",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomevalue"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeValueType": {
+  "abstract" : [
+    {
+      "text" : "An enumerator specifying the types of values that can be saved to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeValueType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeValueType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeValueType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeValueType",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomevaluetype"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeValueUnderlyingType": {
+  "abstract" : [
+    {
+      "text" : "Any value that can be persisted to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " must conform to this protocol.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeValueUnderlyingType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeValueUnderlyingType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeValueUnderlyingType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeValueUnderlyingType",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomevalueunderlyingtype"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatient": {
+  "abstract" : [
+    {
+      "text" : "Represents a patient",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatient"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatient",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatient"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPatient",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatient"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which patients will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPatientQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientStore": {
+  "abstract" : [
+    {
+      "text" : "Any store that can perform read and write operations on a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyPatient",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKPatientStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPatientStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from patient stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPatientStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientstoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPostalAddress": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "Codable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " subclass of ",
+      "type" : "text"
+    },
+    {
+      "code" : "CNMutablePostalAddress",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPostalAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPostalAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPostalAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPostalAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpostaladdress"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadOnlyEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single event type can be queried is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKReadOnlyEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadOnlyEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadOnlyEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadOnlyEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadOnlyEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadonlyeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadableCarePlanStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyCarePlanStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableCarePlanStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableCarePlanStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableCarePlanStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadableCarePlanStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadablecareplanstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadableContactStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyContact",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAReadableCarePlanStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableContactStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableContactStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableContactStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadableContactStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadablecontactstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadableOutcomeStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKReadableOutcomeStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadableOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadableoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadablePatientStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyPatient",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyPatientStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadablePatientStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadablePatientStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadablePatientStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadablePatientStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadablepatientstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadableTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKReadableTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadableTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadabletaskstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKRemoteSynchronizable": {
+  "abstract" : [
+    {
+      "text" : "Implement this protocol to allow CareKitStore to synchronize against an endpoint of your choosing.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKRemoteSynchronizable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKRemoteSynchronizable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKRemoteSynchronizable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKRemoteSynchronizable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockremotesynchronizable"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKRemoteSynchronizationDelegate": {
+  "abstract" : [
+    {
+      "text" : "Implement this protocol to listen for important events coming from an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKRemoteSynchronizable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKRemoteSynchronizationDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKRemoteSynchronizationDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKRemoteSynchronizationDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKRemoteSynchronizationDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockremotesynchronizationdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKResetDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKResetDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKResetDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKResetDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKResetDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockresetdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKResultClosure": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKResultClosure"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKResultClosure",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKResultClosure"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKResultClosure",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockresultclosure"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKRevisionRecord": {
+  "abstract" : [
+    {
+      "text" : "Revision records are exchanged by the CareKit and a remote database during synchronization.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Each revision record contains an array of entities as well as a knowledge vector.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKRevisionRecord"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKRevisionRecord",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKRevisionRecord"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKRevisionRecord",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockrevisionrecord"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKSchedule": {
+  "abstract" : [
+    {
+      "text" : "An implementation of ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSchedulable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that can be created by composing together any number of other",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSchedulable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " objects, including other instance of ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSchedule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". This allows for the creation",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "of arbitrarily complex schedules.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSchedule"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKSchedule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSchedule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSchedule",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockschedule"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKScheduleElement": {
+  "abstract" : [
+    {
+      "text" : "The simplest possible ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSchedulable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", representing a single event that repeats at",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "fixed intervals. It may have fixed duration or repeat indefinitely.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKScheduleElement"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKScheduleElement",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKScheduleElement"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKScheduleElement",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockscheduleelement"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKScheduleEvent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKScheduleEvent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKScheduleEvent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKScheduleEvent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKScheduleEvent",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockscheduleevent"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKSemanticVersion": {
+  "abstract" : [
+    {
+      "text" : "A semantic version with major, minor, and patch version numbers. Semantic versions parsed from strings and compared.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSemanticVersion"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKSemanticVersion",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSemanticVersion"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSemanticVersion",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocksemanticversion"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKStore": {
+  "abstract" : [
+    {
+      "text" : "The default store used in CareKit. The underlying database used is CoreData.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKStoreCoordinator": {
+  "abstract" : [
+    {
+      "code" : "OCKStoreCoordinator",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a special kind of pass through store that forwards to a group of other stores.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It has different behavior during ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "read",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " and ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "write",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " operations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreCoordinator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStoreCoordinator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreCoordinator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStoreCoordinator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockstorecoordinator"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKStoreError": {
+  "abstract" : [
+    {
+      "code" : "OCKStoreError",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s will be emitted from ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStoreProtocol",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " conformers if there is problem during a transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStoreError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStoreError",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockstoreerror"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKStoreProtocol": {
+  "abstract" : [
+    {
+      "text" : "CareKit can support any store that conforms to this protocol. The ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " class included in CareKit is a CoreData store that the implements",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStoreProtocol",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to provide on device storage. Support for other databases such as JSON files, REST API’s, websockets, and 3rd part databases",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "can be added by conforming them to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStoreProtocol",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKStoreProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStoreProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockstoreprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTask": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " represents some task or action that a patient is supposed to perform. Tasks are optionally associable with an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKCarePlan",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and must have a unique id and schedule. The schedule determines when and how often the task should be performed, and the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "impactsAdherence",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " flag may be used to specify whether or not the patients adherence to this task will affect their daily completion rings.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTask"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTask",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTask"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTask",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktask"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which tasks will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store that can perform read and write operations on a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from task stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskstoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKWatchConnectivityPeer": {
+  "abstract" : [
+    {
+      "code" : "OCKWatchConnectivityPeer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " enables synchronizing two instances of ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "where one store is part of an iPhone app and the other belongs to the watchOS companion",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "app.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWatchConnectivityPeer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKWatchConnectivityPeer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWatchConnectivityPeer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWatchConnectivityPeer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockwatchconnectivitypeer"
+}
+}
+}

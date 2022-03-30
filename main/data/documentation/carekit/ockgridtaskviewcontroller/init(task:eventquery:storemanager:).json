@@ -1,0 +1,497 @@
+{
+  "abstract" : [
+    {
+      "text" : "Initialize a view controller that displays a task. Fetches and stays synchronized with events for the task.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController\/init(task:eventQuery:storeManager:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit25OCKGridTaskViewControllerC4task10eventQuery12storeManagerAC0aB5Store06OCKAnyD0_p_AG08OCKEventI0VAA015OCKSynchronizedlK0Ctcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "task"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+        "text" : "OCKAnyTask"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "eventQuery"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+        "text" : "OCKEventQuery"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "storeManager"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+        "text" : "OCKSynchronizedStoreManager"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(task:eventQuery:storeManager:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "task"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTask",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+              "text" : "OCKAnyTask"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "eventQuery"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventQuery",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+              "text" : "OCKEventQuery"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "storeManager"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+              "text" : "OCKSynchronizedStoreManager"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The task to display.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "task"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Used to fetch events for the task.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "eventQuery"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Wraps the store that contains the events to fetch.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "storeManager"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockgridtaskviewcontroller\/init(task:eventquery:storemanager:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A task view controller that displays multiple events in a grid collection view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewController/init(task:eventQuery:storeManager:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize a view controller that displays a task. Fetches and stays synchronized with events for the task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "task"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+      "text" : "OCKEventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController\/init(task:eventQuery:storeManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(task:eventQuery:storeManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewcontroller\/init(task:eventquery:storemanager:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSynchronizedStoreManager",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " wraps any store that conforms to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and provides synchronization to CareKit view",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "controllers by listening in on the store’s activity by setting itself as the store delegate.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizedStoreManager",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyTask": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTask"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTask",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTask"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTask",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanytask"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEventQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which events will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEventQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockeventquery"
+}
+}
+}

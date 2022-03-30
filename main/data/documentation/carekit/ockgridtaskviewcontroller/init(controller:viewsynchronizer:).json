@@ -1,0 +1,345 @@
+{
+  "abstract" : [
+    {
+      "text" : "Initialize with a controller and synchronizer.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController\/init(controller:viewSynchronizer:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit25OCKGridTaskViewControllerC10controller16viewSynchronizerAcA07OCKTaskF0C_AA0cdeI0Ctcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "controller"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit21OCKGridTaskControllera",
+        "text" : "OCKGridTaskController"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "viewSynchronizer"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit27OCKGridTaskViewSynchronizerC",
+        "text" : "OCKGridTaskViewSynchronizer"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(controller:viewSynchronizer:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "controller"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskController",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit21OCKGridTaskControllera",
+              "text" : "OCKGridTaskController"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "viewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit27OCKGridTaskViewSynchronizerC",
+              "text" : "OCKGridTaskViewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockgridtaskviewcontroller\/init(controller:viewsynchronizer:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A task view controller that displays multiple events in a grid collection view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewController/init(controller:viewSynchronizer:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize with a controller and synchronizer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "controller"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKGridTaskControllera",
+      "text" : "OCKGridTaskController"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKGridTaskViewSynchronizerC",
+      "text" : "OCKGridTaskViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController\/init(controller:viewSynchronizer:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(controller:viewSynchronizer:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewcontroller\/init(controller:viewsynchronizer:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A view synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKGridTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewsynchronizer"
+}
+}
+}

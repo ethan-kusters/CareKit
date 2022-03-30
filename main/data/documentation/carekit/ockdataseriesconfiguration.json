@@ -1,0 +1,524 @@
+{
+  "abstract" : [
+    {
+      "text" : "A configuration object that specifies which data should be queried and how it should be displayed by the graph.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit26OCKDataSeriesConfigurationV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKDataSeriesConfiguration"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKDataSeriesConfiguration"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "OCKDataSeriesConfiguration"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKDataSeriesConfiguration"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/init(taskID:legendTitle:gradientStartColor:gradientEndColor:markerSize:eventAggregator:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/aggregator",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/gradientEndColor",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/gradientStartColor",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/legendTitle",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/markerSize",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/taskID"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockdataseriesconfiguration"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration": {
+  "abstract" : [
+    {
+      "text" : "A configuration object that specifies which data should be queried and how it should be displayed by the graph.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeriesConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeriesConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDataSeriesConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/aggregator": {
+  "abstract" : [
+    {
+      "text" : "A closure that accepts as an argument a day’s worth of events and returns a y-axis value for that day.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aggregator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore18OCKEventAggregatorO",
+      "text" : "OCKEventAggregator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/aggregator",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "aggregator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/aggregator"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/gradientEndColor": {
+  "abstract" : [
+    {
+      "text" : "The second of two colors that will be used in the gradient when plotting the data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gradientEndColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/gradientEndColor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gradientEndColor",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/gradientendcolor"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/gradientStartColor": {
+  "abstract" : [
+    {
+      "text" : "The first of two colors that will be used in the gradient when plotting the data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gradientStartColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/gradientStartColor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gradientStartColor",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/gradientstartcolor"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/init(taskID:legendTitle:gradientStartColor:gradientEndColor:markerSize:eventAggregator:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize a new ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKDataSeriesConfiguration",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "taskID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "legendTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "gradientStartColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "gradientEndColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "markerSize"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventAggregator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore18OCKEventAggregatorO",
+      "text" : "OCKEventAggregator"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/init(taskID:legendTitle:gradientStartColor:gradientEndColor:markerSize:eventAggregator:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(taskID:legendTitle:gradientStartColor:gradientEndColor:markerSize:eventAggregator:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/init(taskid:legendtitle:gradientstartcolor:gradientendcolor:markersize:eventaggregator:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/legendTitle": {
+  "abstract" : [
+    {
+      "text" : "The title that will be used to represent this data series in the legend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "legendTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/legendTitle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "legendTitle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/legendtitle"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/markerSize": {
+  "abstract" : [
+    {
+      "text" : "The marker size determines the size of the line, bar, or scatter plot elements. The precise behavior is different for each type of plot.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "markerSize"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/markerSize",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "markerSize",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/markersize"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/taskID": {
+  "abstract" : [
+    {
+      "text" : "A user-provided unique id for a task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/taskID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskID",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/taskid"
+}
+}
+}

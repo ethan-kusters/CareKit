@@ -1,0 +1,1311 @@
+{
+  "abstract" : [
+    {
+      "text" : "A specialized store that transparently manipulates outcomes in HealthKit.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12CareKitStore09OCKHealthb11PassthroughC0C",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKHealthKitPassthroughStore"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitStore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKHealthKitPassthroughStore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OCKHealthKitPassthroughStore"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKHealthKitPassthroughStore"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyTaskStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyResettableStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTaskStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadOnlyEventStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableOutcomeStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableTaskStore",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStore"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/init(store:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/outcomeDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/resetDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/taskDelegate"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/fetchTasks(for:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/requestHealthKitPermissionsForAllTasksInStore(completion:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/reset()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/Outcome",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/Task"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyOutcomeStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyReadOnlyEventStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyReadOnlyOutcomeStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyReadOnlyTaskStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyTaskStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKOutcomeStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKReadOnlyEventStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKReadableOutcomeStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKReadableTaskStore-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKTaskStore-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitstore\/ockhealthkitpassthroughstore"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyEvent",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s  can be queried and also written is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyOutcomeStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyEvent",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s  can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlyeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyOutcomeStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlyoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyReadOnlyTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyReadOnlyTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyReadOnlyTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyReadOnlyTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyReadOnlyTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyreadonlytaskstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyResettableStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyResettableStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyResettableStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyResettableStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyResettableStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanyresettablestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store able to write to one ore more types conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanytaskstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store in which a single event type can be both queried and written is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore": {
+  "abstract" : [
+    {
+      "text" : "A specialized store that transparently manipulates outcomes in HealthKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitPassthroughStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKHealthKitPassthroughStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitPassthroughStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKAnyOutcomeStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyOutcomeStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyOutcomeStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockanyoutcomestore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKAnyReadOnlyEventStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyReadOnlyEventStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyReadOnlyEventStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockanyreadonlyeventstore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKAnyReadOnlyOutcomeStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyReadOnlyOutcomeStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyReadOnlyOutcomeStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockanyreadonlyoutcomestore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKAnyReadOnlyTaskStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyReadOnlyTaskStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyReadOnlyTaskStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockanyreadonlytaskstore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKAnyTaskStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKAnyTaskStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyTaskStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockanytaskstore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKOutcomeStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKOutcomeStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKOutcomeStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockoutcomestore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKReadOnlyEventStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKReadOnlyEventStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKReadOnlyEventStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockreadonlyeventstore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKReadableOutcomeStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKReadableOutcomeStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKReadableOutcomeStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockreadableoutcomestore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKReadableTaskStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKReadableTaskStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKReadableTaskStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ockreadabletaskstore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/OCKTaskStore-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/OCKTaskStore-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKTaskStore Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/ocktaskstore-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/Outcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Outcome"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/Outcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Outcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitPassthroughStore.Outcome",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/outcome"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/Task": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Task"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/Task",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Task"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKHealthKitPassthroughStore.Task",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/task"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/fetchTasks(for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchTasks"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore09OCKHealthB7OutcomeV",
+      "text" : "OCKHealthKitOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore09OCKHealthB4TaskV",
+      "text" : "OCKHealthKitTask"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/fetchTasks(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchTasks(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/fetchtasks(for:)"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/init(store:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "store"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore8OCKStoreC",
+      "text" : "OCKStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/init(store:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(store:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/init(store:)"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/outcomeDelegate": {
+  "abstract" : [
+    {
+      "text" : "The delegate receives callbacks when the contents of the care plan store are modified.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "In ",
+      "type" : "text"
+    },
+    {
+      "code" : "CareKit",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " apps, the delegate will be set automatically, and it should not be modified.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outcomeDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore010OCKOutcomeC8DelegateP",
+      "text" : "OCKOutcomeStoreDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/outcomeDelegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outcomeDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/outcomedelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/requestHealthKitPermissionsForAllTasksInStore(completion:)": {
+  "abstract" : [
+    {
+      "text" : "Presents a standard HealthKit permission sheet prompting the user to grant permission for",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "all data types required to read and write outcomes for the tasks in this store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "requestHealthKitPermissionsForAllTasksInStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/requestHealthKitPermissionsForAllTasksInStore(completion:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "requestHealthKitPermissionsForAllTasksInStore(completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/requesthealthkitpermissionsforalltasksinstore(completion:)"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/reset()": {
+  "abstract" : [
+    {
+      "text" : "Deletes the contents of the store, resetting it to its initial state.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "reset"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/reset()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "reset()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/reset()"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/resetDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "resetDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore16OCKResetDelegateP",
+      "text" : "OCKResetDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/resetDelegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "resetDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/resetdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKHealthKitPassthroughStore/taskDelegate": {
+  "abstract" : [
+    {
+      "text" : "The delegate receives callbacks when the contents of the care plan store are modified.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "In ",
+      "type" : "text"
+    },
+    {
+      "code" : "CareKit",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " apps, the delegate will be set automatically, and it should not be modified.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore07OCKTaskC8DelegateP",
+      "text" : "OCKTaskStoreDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKHealthKitPassthroughStore\/taskDelegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockhealthkitpassthroughstore\/taskdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeStore": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadOnlyEventStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single event type can be queried is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKReadOnlyEventStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadOnlyEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadOnlyEventStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadOnlyEventStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadOnlyEventStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadonlyeventstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadableOutcomeStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKReadableOutcomeStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableOutcomeStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableOutcomeStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableOutcomeStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadableOutcomeStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadableoutcomestore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKReadableTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store from which a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " can be queried is considered a ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKReadableTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKReadableTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKReadableTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKReadableTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockreadabletaskstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskStore": {
+  "abstract" : [
+    {
+      "text" : "Any store that can perform read and write operations on a single type conforming to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyTask",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is considered an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKTaskStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStore",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStore"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskstore"
+}
+}
+}

@@ -1,0 +1,278 @@
+{
+  "abstract" : [
+    {
+      "text" : "Initialize a view to be synchronized.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer\/OCKAnyTaskViewSynchronizerProtocol-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer\/makeAnyView()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "CareKit",
+    "externalID" : "s:7CareKit31OCKTaskViewSynchronizerProtocolPAAE07makeAnyD00aB2UI0C11Displayable_So6UIViewCXcyF::SYNTHESIZED::s:7CareKit32OCKChecklistTaskViewSynchronizerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "makeAnyView"
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UIView",
+        "text" : "UIView"
+      },
+      {
+        "kind" : "text",
+        "text" : " & "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9CareKitUI18OCKTaskDisplayableP",
+        "text" : "OCKTaskDisplayable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "makeAnyView()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "makeAnyView"
+            },
+            {
+              "kind" : "text",
+              "text" : "() -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UIView",
+              "text" : "UIView"
+            },
+            {
+              "kind" : "text",
+              "text" : " & "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskDisplayable",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9CareKitUI18OCKTaskDisplayableP",
+              "text" : "OCKTaskDisplayable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockchecklisttaskviewsynchronizer\/makeanyview()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChecklistTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer specialized for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKChecklistTaskView",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChecklistTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchecklisttaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChecklistTaskViewSynchronizer/OCKAnyTaskViewSynchronizerProtocol-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer\/OCKAnyTaskViewSynchronizerProtocol-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyTaskViewSynchronizerProtocol Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchecklisttaskviewsynchronizer\/ockanytaskviewsynchronizerprotocol-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChecklistTaskViewSynchronizer/makeAnyView()": {
+  "abstract" : [
+    {
+      "text" : "Initialize a view to be synchronized.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeAnyView"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI18OCKTaskDisplayableP",
+      "text" : "OCKTaskDisplayable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer\/makeAnyView()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeAnyView()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchecklisttaskviewsynchronizer\/makeanyview()"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKTaskDisplayable": {
+  "abstract" : [
+    {
+      "text" : "Any object that can display and handle interactions with a task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskDisplayable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskDisplayable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskDisplayable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskDisplayable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocktaskdisplayable"
+}
+}
+}

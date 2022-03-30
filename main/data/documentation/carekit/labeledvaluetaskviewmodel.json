@@ -1,0 +1,338 @@
+{
+  "abstract" : [
+    {
+      "text" : "Data used to create a ",
+      "type" : "text"
+    },
+    {
+      "code" : "CareKitUI.LabeledValueTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit25LabeledValueTaskViewModelV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LabeledValueTaskViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LabeledValueTaskViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "LabeledValueTaskViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LabeledValueTaskViewModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/detail",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/state-swift.property",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/title"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/State-swift.enum"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/labeledvaluetaskviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/LabeledValueTaskViewModel": {
+  "abstract" : [
+    {
+      "text" : "Data used to create a ",
+      "type" : "text"
+    },
+    {
+      "code" : "CareKitUI.LabeledValueTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LabeledValueTaskViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LabeledValueTaskViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LabeledValueTaskViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/labeledvaluetaskviewmodel"
+},
+"doc://com.apple.CareKit/documentation/CareKit/LabeledValueTaskViewModel/State-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "The completion state of a ",
+      "type" : "text"
+    },
+    {
+      "code" : "LabeledValueTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "State"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/State-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "State"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LabeledValueTaskViewModel.State",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/labeledvaluetaskviewmodel\/state-swift.enum"
+},
+"doc://com.apple.CareKit/documentation/CareKit/LabeledValueTaskViewModel/detail": {
+  "abstract" : [
+    {
+      "text" : "The detail text to display in the header.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "detail"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/detail",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "detail",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/labeledvaluetaskviewmodel\/detail"
+},
+"doc://com.apple.CareKit/documentation/CareKit/LabeledValueTaskViewModel/state-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The completion state of the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "state"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25LabeledValueTaskViewModelV5StateO",
+      "text" : "State"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/state-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "state",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/labeledvaluetaskviewmodel\/state-swift.property"
+},
+"doc://com.apple.CareKit/documentation/CareKit/LabeledValueTaskViewModel/title": {
+  "abstract" : [
+    {
+      "text" : "The title text to display in the header.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/LabeledValueTaskViewModel\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "title",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/labeledvaluetaskviewmodel\/title"
+}
+}
+}

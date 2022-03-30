@@ -1,0 +1,1414 @@
+{
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of watching and updating tasks.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit17OCKTaskControllerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKTaskController"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKTaskController"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OCKTaskController"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKTaskController"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKLabeledValueTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskController"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/7Combine16ObservableObjectP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/init(storeManager:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/error",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/storeManager",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/taskEvents"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/appendOutcomeValue(value:at:completion:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/appendOutcomeValue(withType:at:completion:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/eventFor(indexPath:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/fetchAndObserveEvents(forTaskIDs:eventQuery:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/fetchAndObserveEvents(forTaskQuery:eventQuery:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/fetchAndObserveEvents(forTasks:eventQuery:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/initiateDeletionForOutcomeValue(atIndex:eventIndexPath:deletionCompletion:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/initiateDetailsViewController(forIndexPath:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/makeOutcomeFor(event:withValues:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/setEvent(atIndexPath:isComplete:completion:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/ObservableObject-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ocktaskcontroller"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskController": {
+  "abstract" : [
+    {
+      "text" : "A task controller that keeps a record of events sorted by their dates.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKLabeledValueTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledValueTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKLabeledValueTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKLabeledValueTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKLabeledValueTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocklabeledvaluetaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKNumericProgressTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKNumericProgressTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKNumericProgressTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKNumericProgressTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKNumericProgressTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocknumericprogresstaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimpletaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of watching and updating tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/ObservableObject-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/ObservableObject-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ObservableObject Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/observableobject-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/appendOutcomeValue(value:at:completion:)": {
+  "abstract" : [
+    {
+      "text" : "Append an outcome value to an event’s outcome.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appendOutcomeValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore29OCKOutcomeValueUnderlyingTypeP",
+      "text" : "OCKOutcomeValueUnderlyingType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "at"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/appendOutcomeValue(value:at:completion:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appendOutcomeValue(value:at:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/appendoutcomevalue(value:at:completion:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/appendOutcomeValue(withType:at:completion:)": {
+  "abstract" : [
+    {
+      "text" : "Append an outcome value to an event’s outcome.",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appendOutcomeValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "withType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore29OCKOutcomeValueUnderlyingTypeP",
+      "text" : "OCKOutcomeValueUnderlyingType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "at"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/appendOutcomeValue(withType:at:completion:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appendOutcomeValue(withType:at:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/appendoutcomevalue(withtype:at:completion:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/error": {
+  "abstract" : [
+    {
+      "text" : "The error encountered by the controller.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "error"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/error",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "error",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/error"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/eventFor(indexPath:)": {
+  "abstract" : [
+    {
+      "text" : "Return an event for a particular index path. Customize this method to define the index path behavior used by other functions in this class.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "eventFor"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "indexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore11OCKAnyEventV",
+      "text" : "OCKAnyEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/eventFor(indexPath:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "eventFor(indexPath:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/eventfor(indexpath:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/fetchAndObserveEvents(forTaskIDs:eventQuery:)": {
+  "abstract" : [
+    {
+      "text" : "Fetch tasks and events based on the given task IDs. Once the events are received, the view model will be updated and this controller will",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "subscribe to any changes that occur in the store that affect the tasks and events received by the given queries.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchAndObserveEvents"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forTaskIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+      "text" : "OCKEventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/fetchAndObserveEvents(forTaskIDs:eventQuery:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchAndObserveEvents(forTaskIDs:eventQuery:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/fetchandobserveevents(fortaskids:eventquery:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/fetchAndObserveEvents(forTaskQuery:eventQuery:)": {
+  "abstract" : [
+    {
+      "text" : "Fetch tasks and events based on the given queries. Once the events are received, the view model will be updated and this controller will",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "subscribe to any changes that occur in the store that affect the tasks and events received by the given queries.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchAndObserveEvents"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forTaskQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore12OCKTaskQueryV",
+      "text" : "OCKTaskQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+      "text" : "OCKEventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/fetchAndObserveEvents(forTaskQuery:eventQuery:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchAndObserveEvents(forTaskQuery:eventQuery:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/fetchandobserveevents(fortaskquery:eventquery:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/fetchAndObserveEvents(forTasks:eventQuery:)": {
+  "abstract" : [
+    {
+      "text" : "Fetch events for the given tasks. Once the events are received, the view model will be updated and this controller will",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "subscribe to any changes that occur in the store that affect the tasks and events received by the given queries.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchAndObserveEvents"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forTasks"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+      "text" : "OCKEventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/fetchAndObserveEvents(forTasks:eventQuery:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchAndObserveEvents(forTasks:eventQuery:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/fetchandobserveevents(fortasks:eventquery:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/init(storeManager:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize with a store manager.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/init(storeManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(storeManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/init(storemanager:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/initiateDeletionForOutcomeValue(atIndex:eventIndexPath:deletionCompletion:)": {
+  "abstract" : [
+    {
+      "text" : "Create a view with an option to delete an outcome value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "initiateDeletionForOutcomeValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "atIndex"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventIndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "deletionCompletion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIAlertController",
+      "text" : "UIAlertController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/initiateDeletionForOutcomeValue(atIndex:eventIndexPath:deletionCompletion:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "initiateDeletionForOutcomeValue(atIndex:eventIndexPath:deletionCompletion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/initiatedeletionforoutcomevalue(atindex:eventindexpath:deletioncompletion:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/initiateDetailsViewController(forIndexPath:)": {
+  "abstract" : [
+    {
+      "text" : "Create a detail view that displays information about a task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "initiateDetailsViewController"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forIndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@CareKit@objc(cs)OCKDetailViewController",
+      "text" : "OCKDetailViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/initiateDetailsViewController(forIndexPath:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "initiateDetailsViewController(forIndexPath:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/initiatedetailsviewcontroller(forindexpath:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/makeOutcomeFor(event:withValues:)": {
+  "abstract" : [
+    {
+      "text" : "Make an outcome for an event with the given outcome values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeOutcomeFor"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "event"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore11OCKAnyEventV",
+      "text" : "OCKAnyEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "withValues"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore15OCKOutcomeValueV",
+      "text" : "OCKOutcomeValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/makeOutcomeFor(event:withValues:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeOutcomeFor(event:withValues:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/makeoutcomefor(event:withvalues:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/setEvent(atIndexPath:isComplete:completion:)": {
+  "abstract" : [
+    {
+      "text" : "Set the completion state for an event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "atIndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isComplete"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/setEvent(atIndexPath:isComplete:completion:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setEvent(atIndexPath:isComplete:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/setevent(atindexpath:iscomplete:completion:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/storeManager": {
+  "abstract" : [
+    {
+      "text" : "The store manager against which the task will be synchronized.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/storeManager",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "storeManager",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/storemanager"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController/taskEvents": {
+  "abstract" : [
+    {
+      "text" : "The current task events. Subscribe to the projected value to be notified when the task and events change.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskEvents"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit13OCKTaskEventsV",
+      "text" : "OCKTaskEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController\/taskEvents",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller\/taskevents"
+}
+}
+}

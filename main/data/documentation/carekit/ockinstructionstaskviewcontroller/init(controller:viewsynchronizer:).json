@@ -1,0 +1,338 @@
+{
+  "abstract" : [
+    {
+      "text" : "Initialize with a controller and synchronizer.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController\/init(controller:viewSynchronizer:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit33OCKInstructionsTaskViewControllerC10controller16viewSynchronizerAcA0cdF0C_AA0cdeI0Ctcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "controller"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit29OCKInstructionsTaskControllerC",
+        "text" : "OCKInstructionsTaskController"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "viewSynchronizer"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit35OCKInstructionsTaskViewSynchronizerC",
+        "text" : "OCKInstructionsTaskViewSynchronizer"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(controller:viewSynchronizer:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "controller"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskController",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit29OCKInstructionsTaskControllerC",
+              "text" : "OCKInstructionsTaskController"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "viewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit35OCKInstructionsTaskViewSynchronizerC",
+              "text" : "OCKInstructionsTaskViewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockinstructionstaskviewcontroller\/init(controller:viewsynchronizer:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewController/init(controller:viewSynchronizer:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize with a controller and synchronizer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "controller"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit29OCKInstructionsTaskControllerC",
+      "text" : "OCKInstructionsTaskController"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit35OCKInstructionsTaskViewSynchronizerC",
+      "text" : "OCKInstructionsTaskViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController\/init(controller:viewSynchronizer:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(controller:viewSynchronizer:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewcontroller\/init(controller:viewsynchronizer:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer specialized for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKInstructionsTaskView",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewsynchronizer"
+}
+}
+}

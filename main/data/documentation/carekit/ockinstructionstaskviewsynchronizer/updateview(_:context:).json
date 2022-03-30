@@ -1,0 +1,463 @@
+{
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer\/updateView(_:context:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit35OCKInstructionsTaskViewSynchronizerC06updateE0_7contexty0aB2UI0cdE0C_AA25OCKSynchronizationContextVyAA13OCKTaskEventsVGtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "updateView"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKInstructionsTaskView",
+        "text" : "OCKInstructionsTaskView"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "context"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+        "text" : "OCKSynchronizationContext"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit13OCKTaskEventsV",
+        "text" : "OCKTaskEvents"
+      },
+      {
+        "kind" : "text",
+        "text" : ">)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "updateView(_:context:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "updateView"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "view"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKInstructionsTaskView",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKInstructionsTaskView",
+              "text" : "OCKInstructionsTaskView"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "context"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+              "text" : "OCKSynchronizationContext"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit13OCKTaskEventsV",
+              "text" : "OCKTaskEvents"
+            },
+            {
+              "kind" : "text",
+              "text" : ">)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The view to be updated.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "view"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Information about the update that is occurring.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "context"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockinstructionstaskviewsynchronizer\/updateview(_:context:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer specialized for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKInstructionsTaskView",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewSynchronizer/updateView(_:context:)": {
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKInstructionsTaskView",
+      "text" : "OCKInstructionsTaskView"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+      "text" : "OCKSynchronizationContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit13OCKTaskEventsV",
+      "text" : "OCKTaskEvents"
+    },
+    {
+      "kind" : "text",
+      "text" : ">)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer\/updateView(_:context:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "updateView(_:context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewsynchronizer\/updateview(_:context:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext": {
+  "abstract" : [
+    {
+      "text" : "Provides context for a view model value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizationContext",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskEvents": {
+  "abstract" : [
+    {
+      "text" : "A data structure that holds events for multiple tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskEvents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskevents"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKInstructionsTaskView": {
+  "abstract" : [
+    {
+      "text" : "A card that displays a header, multi-line label, and a completion button. In CareKit, this view is",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "intended to display a particular event for a task. The state of the completion button indicates",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the completion state of the event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKInstructionsTaskView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockinstructionstaskview"
+}
+}
+}

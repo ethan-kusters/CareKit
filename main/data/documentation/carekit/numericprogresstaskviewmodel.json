@@ -1,0 +1,408 @@
+{
+  "abstract" : [
+    {
+      "text" : "Data used to create a ",
+      "type" : "text"
+    },
+    {
+      "code" : "CareKitUI.NumericProgressTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit28NumericProgressTaskViewModelV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "NumericProgressTaskViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "NumericProgressTaskViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "NumericProgressTaskViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "NumericProgressTaskViewModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/detail",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/goal",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/instructions",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/isComplete",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/progress",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/title"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/numericprogresstaskviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/NumericProgressTaskViewModel": {
+  "abstract" : [
+    {
+      "text" : "Data used to create a ",
+      "type" : "text"
+    },
+    {
+      "code" : "CareKitUI.NumericProgressTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NumericProgressTaskViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NumericProgressTaskViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NumericProgressTaskViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/numericprogresstaskviewmodel"
+},
+"doc://com.apple.CareKit/documentation/CareKit/NumericProgressTaskViewModel/detail": {
+  "abstract" : [
+    {
+      "text" : "The detail text to display in the header.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "detail"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/detail",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "detail",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/numericprogresstaskviewmodel\/detail"
+},
+"doc://com.apple.CareKit/documentation/CareKit/NumericProgressTaskViewModel/goal": {
+  "abstract" : [
+    {
+      "text" : "Goal text to display in the sub-header.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "goal"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/goal",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "goal",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/numericprogresstaskviewmodel\/goal"
+},
+"doc://com.apple.CareKit/documentation/CareKit/NumericProgressTaskViewModel/instructions": {
+  "abstract" : [
+    {
+      "text" : "The instructions text to display under the header.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "instructions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/instructions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "instructions",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/numericprogresstaskviewmodel\/instructions"
+},
+"doc://com.apple.CareKit/documentation/CareKit/NumericProgressTaskViewModel/isComplete": {
+  "abstract" : [
+    {
+      "text" : "True if the goal has been reached.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isComplete"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/isComplete",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isComplete",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/numericprogresstaskviewmodel\/iscomplete"
+},
+"doc://com.apple.CareKit/documentation/CareKit/NumericProgressTaskViewModel/progress": {
+  "abstract" : [
+    {
+      "text" : "Progress text to display in the sub-header.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "progress"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/progress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "progress",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/numericprogresstaskviewmodel\/progress"
+},
+"doc://com.apple.CareKit/documentation/CareKit/NumericProgressTaskViewModel/title": {
+  "abstract" : [
+    {
+      "text" : "The title text to display in the header.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/NumericProgressTaskViewModel\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "title",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/numericprogresstaskviewmodel\/title"
+}
+}
+}

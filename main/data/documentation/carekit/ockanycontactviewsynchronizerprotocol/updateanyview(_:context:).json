@@ -1,0 +1,565 @@
+{
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementationsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewSynchronizerProtocol\/updateAnyView(_:context:)"
+      ],
+      "title" : "OCKContactViewSynchronizerProtocol Implementations"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyContactViewSynchronizerProtocol"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyContactViewSynchronizerProtocol\/updateAnyView(_:context:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit37OCKAnyContactViewSynchronizerProtocolP09updateAnyE0_7contexty0aB2UI21OCKContactDisplayable_So6UIViewCXc_AA25OCKSynchronizationContextVy0aB5Store0cD0_pSgGtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "updateAnyView"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UIView",
+        "text" : "UIView"
+      },
+      {
+        "kind" : "text",
+        "text" : " & "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9CareKitUI21OCKContactDisplayableP",
+        "text" : "OCKContactDisplayable"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "context"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+        "text" : "OCKSynchronizationContext"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore13OCKAnyContactP",
+        "text" : "OCKAnyContact"
+      },
+      {
+        "kind" : "text",
+        "text" : "?>)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "updateAnyView(_:context:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "updateAnyView"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "view"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UIView",
+              "text" : "UIView"
+            },
+            {
+              "kind" : "text",
+              "text" : " & "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactDisplayable",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9CareKitUI21OCKContactDisplayableP",
+              "text" : "OCKContactDisplayable"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "context"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+              "text" : "OCKSynchronizationContext"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyContact",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore13OCKAnyContactP",
+              "text" : "OCKAnyContact"
+            },
+            {
+              "kind" : "text",
+              "text" : "?>)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The view to be updated",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "view"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Information about the update that is occurring.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "context"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockanycontactviewsynchronizerprotocol\/updateanyview(_:context:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKAnyContactViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a type erased view synchronizer for contacts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContactViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyContactViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContactViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyContactViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockanycontactviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKAnyContactViewSynchronizerProtocol/updateAnyView(_:context:)": {
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateAnyView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI21OCKContactDisplayableP",
+      "text" : "OCKContactDisplayable"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+      "text" : "OCKSynchronizationContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyContactP",
+      "text" : "OCKAnyContact"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyContactViewSynchronizerProtocol\/updateAnyView(_:context:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "updateAnyView(_:context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockanycontactviewsynchronizerprotocol\/updateanyview(_:context:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactViewSynchronizerProtocol/updateAnyView(_:context:)": {
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateAnyView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI21OCKContactDisplayableP",
+      "text" : "OCKContactDisplayable"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+      "text" : "OCKSynchronizationContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyContactP",
+      "text" : "OCKAnyContact"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewSynchronizerProtocol\/updateAnyView(_:context:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "updateAnyView(_:context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactviewsynchronizerprotocol\/updateanyview(_:context:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext": {
+  "abstract" : [
+    {
+      "text" : "Provides context for a view model value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizationContext",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyContact": {
+  "abstract" : [
+    {
+      "text" : "Conforming a type to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKAnyContact",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " allows it to be queried and displayed by CareKit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContact"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyContact",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContact"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyContact",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanycontact"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKContactDisplayable": {
+  "abstract" : [
+    {
+      "text" : "Any object that can display and handle interactions with a contact.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactDisplayable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKContactDisplayable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactDisplayable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactDisplayable",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcontactdisplayable"
+}
+}
+}

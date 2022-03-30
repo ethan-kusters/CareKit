@@ -1,0 +1,402 @@
+{
+  "abstract" : [
+    {
+      "text" : "A view synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKGridTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit27OCKGridTaskViewSynchronizerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKGridTaskViewSynchronizer"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKGridTaskViewSynchronizer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OCKGridTaskViewSynchronizer"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKGridTaskViewSynchronizer"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyTaskViewSynchronizerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewSynchronizerProtocol"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/makeView()",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/updateView(_:context:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/OCKAnyTaskViewSynchronizerProtocol-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockgridtaskviewsynchronizer"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKAnyTaskViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a type erased view synchronizer for tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyTaskViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTaskViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockanytaskviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A view synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKGridTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewSynchronizer/OCKAnyTaskViewSynchronizerProtocol-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/OCKAnyTaskViewSynchronizerProtocol-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyTaskViewSynchronizerProtocol Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewsynchronizer\/ockanytaskviewsynchronizerprotocol-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewSynchronizer/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewsynchronizer\/init()"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewSynchronizer/makeView()": {
+  "abstract" : [
+    {
+      "text" : "Initialize a view to be synchronized.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeView"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKGridTaskView",
+      "text" : "OCKGridTaskView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/makeView()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeView()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewsynchronizer\/makeview()"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewSynchronizer/updateView(_:context:)": {
+  "abstract" : [
+    {
+      "text" : "Update a view using the given context.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@CareKitUI@objc(cs)OCKGridTaskView",
+      "text" : "OCKGridTaskView"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit25OCKSynchronizationContextV",
+      "text" : "OCKSynchronizationContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit13OCKTaskEventsV",
+      "text" : "OCKTaskEvents"
+    },
+    {
+      "kind" : "text",
+      "text" : ">)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer\/updateView(_:context:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "updateView(_:context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewsynchronizer\/updateview(_:context:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a view synchronizer for tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewsynchronizerprotocol"
+}
+}
+}

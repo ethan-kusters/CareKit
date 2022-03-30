@@ -1,0 +1,1665 @@
+{
+  "abstract" : [
+    {
+      "text" : "A view controller that displays a task view and keep it synchronized with a store.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit21OCKTaskViewControllerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKTaskViewController"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKTaskViewController"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OCKTaskViewController"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKTaskViewController"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Controller"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "ViewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : "> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Controller"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit17OCKTaskControllerC",
+              "text" : "OCKTaskController"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "ViewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewSynchronizerProtocol",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit31OCKTaskViewSynchronizerProtocolP",
+              "text" : "OCKTaskViewSynchronizerProtocol"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/objc(cs)UIViewController"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskViewController"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/objc(pl)NSCoding",
+        "doc:\/\/com.apple.CareKit\/objc(pl)NSExtensionRequestHandling",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskViewDelegate",
+        "doc:\/\/com.apple.CareKit\/objc(pl)NSObject",
+        "doc:\/\/com.apple.CareKit\/s7CVarArgP",
+        "doc:\/\/com.apple.CareKit\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.apple.CareKit\/s23CustomStringConvertibleP",
+        "doc:\/\/com.apple.CareKit\/SQ",
+        "doc:\/\/com.apple.CareKit\/SH",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIActivityItemsConfigurationProviding",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIAppearanceContainer",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIContentContainer",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIFocusEnvironment",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIPasteConfigurationSupporting",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIResponderStandardEditActions",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIStateRestoring",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UITraitEnvironment",
+        "doc:\/\/com.apple.CareKit\/objc(pl)UIUserActivityRestoring"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(coder:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(controller:viewSynchronizer:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(nibName:bundle:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(viewSynchronizer:task:eventQuery:storeManager:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(viewSynchronizer:taskID:eventQuery:storeManager:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(viewSynchronizer:taskIDs:eventQuery:storeManager:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/controller",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/delegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/viewSynchronizer"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/didSelectTaskView(_:eventIndexPath:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/loadView()",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView(_:didCompleteEvent:at:sender:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView(_:didCreateOutcomeValueAt:eventIndexPath:sender:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView(_:didSelectOutcomeValueAt:eventIndexPath:sender:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/viewDidLoad()"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ocktaskviewcontroller"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/SH": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/SQ": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChecklistTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChecklistTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchecklisttaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A task view controller that displays multiple events in a grid collection view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that display and updates a single event that can be completed or uncompleted by tapping a large button.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimpletaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of watching and updating tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that displays a task view and keep it synchronized with a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/controller": {
+  "abstract" : [
+    {
+      "text" : "Handles the responsibility of interacting with data from the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "controller"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0E0xmfp",
+      "text" : "Controller"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/controller",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "controller",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/controller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/delegate": {
+  "abstract" : [
+    {
+      "text" : "If set, the delegate will receive updates when import events happen",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit29OCKTaskViewControllerDelegateP",
+      "text" : "OCKTaskViewControllerDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/delegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/delegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/didSelectTaskView(_:eventIndexPath:)": {
+  "abstract" : [
+    {
+      "text" : "Called when the task view has been selected.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "didSelectTaskView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI18OCKTaskDisplayableP",
+      "text" : "OCKTaskDisplayable"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventIndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/didSelectTaskView(_:eventIndexPath:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "didSelectTaskView(_:eventIndexPath:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/didselecttaskview(_:eventindexpath:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/init(coder:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSCoder",
+      "text" : "NSCoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(coder:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(coder:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/init(coder:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/init(controller:viewSynchronizer:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize with a controller and synchronizer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "controller"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0E0xmfp",
+      "text" : "Controller"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0D12Synchronizerq_mfp",
+      "text" : "ViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(controller:viewSynchronizer:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(controller:viewSynchronizer:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/init(controller:viewsynchronizer:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/init(nibName:bundle:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "nibName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(nibName:bundle:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(nibName:bundle:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/init(nibname:bundle:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/init(viewSynchronizer:task:eventQuery:storeManager:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize a view controller that displays a task. Fetches and stays synchronized with events for the task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0D12Synchronizerq_mfp",
+      "text" : "ViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "task"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+      "text" : "OCKEventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(viewSynchronizer:task:eventQuery:storeManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(viewSynchronizer:task:eventQuery:storeManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/init(viewsynchronizer:task:eventquery:storemanager:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/init(viewSynchronizer:taskID:eventQuery:storeManager:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize a view controller that displays task. Fetches and stays synchronized with events for the task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0D12Synchronizerq_mfp",
+      "text" : "ViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "taskID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+      "text" : "OCKEventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(viewSynchronizer:taskID:eventQuery:storeManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(viewSynchronizer:taskID:eventQuery:storeManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/init(viewsynchronizer:taskid:eventquery:storemanager:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/init(viewSynchronizer:taskIDs:eventQuery:storeManager:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize a view controller that displays tasks. Fetches and stays synchronized with events for the tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0D12Synchronizerq_mfp",
+      "text" : "ViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "taskIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKEventQueryV",
+      "text" : "OCKEventQuery"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/init(viewSynchronizer:taskIDs:eventQuery:storeManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(viewSynchronizer:taskIDs:eventQuery:storeManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/init(viewsynchronizer:taskids:eventquery:storemanager:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/loadView()": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loadView"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/loadView()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "loadView()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/loadview()"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/taskView": {
+  "abstract" : [
+    {
+      "text" : "The view that is being synchronized against the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskView"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0D12Synchronizerq_mfp",
+      "text" : "ViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit31OCKTaskViewSynchronizerProtocolP0D0Qa",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskView",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/taskview"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/taskView(_:didCompleteEvent:at:sender:)": {
+  "abstract" : [
+    {
+      "text" : "Called when an event is completed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI18OCKTaskDisplayableP",
+      "text" : "OCKTaskDisplayable"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didCompleteEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "at"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sender"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView(_:didCompleteEvent:at:sender:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskView(_:didCompleteEvent:at:sender:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/taskview(_:didcompleteevent:at:sender:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/taskView(_:didCreateOutcomeValueAt:eventIndexPath:sender:)": {
+  "abstract" : [
+    {
+      "text" : "Called when an outcome value has been created at a particular index.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI18OCKTaskDisplayableP",
+      "text" : "OCKTaskDisplayable"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didCreateOutcomeValueAt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventIndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sender"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView(_:didCreateOutcomeValueAt:eventIndexPath:sender:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskView(_:didCreateOutcomeValueAt:eventIndexPath:sender:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/taskview(_:didcreateoutcomevalueat:eventindexpath:sender:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/taskView(_:didSelectOutcomeValueAt:eventIndexPath:sender:)": {
+  "abstract" : [
+    {
+      "text" : "Called when an outcome value was selected for a particular event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIView",
+      "text" : "UIView"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI18OCKTaskDisplayableP",
+      "text" : "OCKTaskDisplayable"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didSelectOutcomeValueAt"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "eventIndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation9IndexPathV",
+      "text" : "IndexPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sender"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/taskView(_:didSelectOutcomeValueAt:eventIndexPath:sender:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskView(_:didSelectOutcomeValueAt:eventIndexPath:sender:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/taskview(_:didselectoutcomevalueat:eventindexpath:sender:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/viewDidLoad()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "viewDidLoad"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/viewDidLoad()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "viewDidLoad()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/viewdidload()"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController/viewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "Handles the responsibility of updating the view when data in the store changes.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit21OCKTaskViewControllerC0D12Synchronizerq_mfp",
+      "text" : "ViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController\/viewSynchronizer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "viewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller\/viewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a view synchronizer for tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKTaskViewDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events related to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKTaskDisplayable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKTaskViewDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ocktaskviewdelegate"
+},
+"doc://com.apple.CareKit/objc(cs)UIViewController": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(cs)UIViewController",
+  "title" : "UIKit.UIViewController",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)NSCoding": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)NSCoding",
+  "title" : "Foundation.NSCoding",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)NSExtensionRequestHandling": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)NSExtensionRequestHandling",
+  "title" : "Foundation.NSExtensionRequestHandling",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIActivityItemsConfigurationProviding": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIActivityItemsConfigurationProviding",
+  "title" : "UIKit.UIActivityItemsConfigurationProviding",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIAppearanceContainer": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIAppearanceContainer",
+  "title" : "UIKit.UIAppearanceContainer",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIContentContainer": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIContentContainer",
+  "title" : "UIKit.UIContentContainer",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIFocusEnvironment": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIFocusEnvironment",
+  "title" : "UIKit.UIFocusEnvironment",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIPasteConfigurationSupporting": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIPasteConfigurationSupporting",
+  "title" : "UIKit.UIPasteConfigurationSupporting",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIResponderStandardEditActions": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIResponderStandardEditActions",
+  "title" : "UIKit.UIResponderStandardEditActions",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIStateRestoring": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIStateRestoring",
+  "title" : "UIKit.UIStateRestoring",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UITraitEnvironment": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UITraitEnvironment",
+  "title" : "UIKit.UITraitEnvironment",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/objc(pl)UIUserActivityRestoring": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/objc(pl)UIUserActivityRestoring",
+  "title" : "UIKit.UIUserActivityRestoring",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/s7CVarArgP": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}

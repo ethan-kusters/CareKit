@@ -1,0 +1,345 @@
+{
+  "abstract" : [
+    {
+      "text" : "Initialize with a controller and synchronizer.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController\/init(controller:viewSynchronizer:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit30OCKButtonLogTaskViewControllerC10controller16viewSynchronizerAcA0cdeG0C_AA0cdefJ0Ctcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "controller"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit26OCKButtonLogTaskControllerC",
+        "text" : "OCKButtonLogTaskController"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "viewSynchronizer"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7CareKit32OCKButtonLogTaskViewSynchronizerC",
+        "text" : "OCKButtonLogTaskViewSynchronizer"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(controller:viewSynchronizer:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "controller"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskController",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit26OCKButtonLogTaskControllerC",
+              "text" : "OCKButtonLogTaskController"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "viewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewSynchronizer",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7CareKit32OCKButtonLogTaskViewSynchronizerC",
+              "text" : "OCKButtonLogTaskViewSynchronizer"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockbuttonlogtaskviewcontroller\/init(controller:viewsynchronizer:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskController": {
+  "abstract" : [
+    {
+      "text" : "A task controller that keeps a record of events sorted by their dates.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskViewController/init(controller:viewSynchronizer:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize with a controller and synchronizer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "controller"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit26OCKButtonLogTaskControllerC",
+      "text" : "OCKButtonLogTaskController"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "viewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit32OCKButtonLogTaskViewSynchronizerC",
+      "text" : "OCKButtonLogTaskViewSynchronizer"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController\/init(controller:viewSynchronizer:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(controller:viewSynchronizer:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskviewcontroller\/init(controller:viewsynchronizer:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKButtonLogTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskviewsynchronizer"
+}
+}
+}

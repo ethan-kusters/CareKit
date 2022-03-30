@@ -1,0 +1,234 @@
+{
+  "abstract" : [
+    {
+      "text" : "A closure that accepts as an argument a day’s worth of events and returns a y-axis value for that day.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/aggregator"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit26OCKDataSeriesConfigurationV10aggregator0aB5Store18OCKEventAggregatorOvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "aggregator"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12CareKitStore18OCKEventAggregatorO",
+        "text" : "OCKEventAggregator"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "aggregator"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "aggregator"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventAggregator",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12CareKitStore18OCKEventAggregatorO",
+              "text" : "OCKEventAggregator"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockdataseriesconfiguration\/aggregator"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration": {
+  "abstract" : [
+    {
+      "text" : "A configuration object that specifies which data should be queried and how it should be displayed by the graph.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeriesConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeriesConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDataSeriesConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration/aggregator": {
+  "abstract" : [
+    {
+      "text" : "A closure that accepts as an argument a day’s worth of events and returns a y-axis value for that day.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aggregator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore18OCKEventAggregatorO",
+      "text" : "OCKEventAggregator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration\/aggregator",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "aggregator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration\/aggregator"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEventAggregator": {
+  "abstract" : [
+    {
+      "text" : "An enumerator that specifies a number of methods for computing a value given an array of events that occurred on some day.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventAggregator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEventAggregator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEventAggregator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEventAggregator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockeventaggregator"
+}
+}
+}

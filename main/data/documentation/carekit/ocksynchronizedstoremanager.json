@@ -1,0 +1,1569 @@
+{
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSynchronizedStoreManager",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " wraps any store that conforms to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and provides synchronization to CareKit view",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "controllers by listening in on the store’s activity by setting itself as the store delegate.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKSynchronizedStoreManager"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKSynchronizedStoreManager"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OCKSynchronizedStoreManager"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKSynchronizedStoreManager"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientStoreDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStoreDelegate"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/init(wrapping:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/notificationPublisher",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/store"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/carePlanStore(_:didAddCarePlans:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/carePlanStore(_:didDeleteCarePlans:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/carePlanStore(_:didUpdateCarePlans:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/contactStore(_:didAddContacts:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/contactStore(_:didDeleteContacts:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/contactStore(_:didUpdateContacts:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didAddOutcomes:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didDeleteOutcomes:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didEncounterUnknownChange:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didUpdateOutcomes:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/patientStore(_:didAddPatients:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/patientStore(_:didDeletePatients:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/patientStore(_:didUpdatePatients:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/taskStore(_:didAddTasks:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/taskStore(_:didDeleteTasks:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/taskStore(_:didUpdateTasks:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ocksynchronizedstoremanager"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSynchronizedStoreManager",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " wraps any store that conforms to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and provides synchronization to CareKit view",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "controllers by listening in on the store’s activity by setting itself as the store delegate.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizedStoreManager",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/carePlanStore(_:didAddCarePlans:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time care plans are added to the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "carePlanStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore014OCKAnyReadOnlya4PlanC0P",
+      "text" : "OCKAnyReadOnlyCarePlanStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didAddCarePlans"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore06OCKAnyA4PlanP",
+      "text" : "OCKAnyCarePlan"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/carePlanStore(_:didAddCarePlans:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "carePlanStore(_:didAddCarePlans:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/careplanstore(_:didaddcareplans:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/carePlanStore(_:didDeleteCarePlans:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time care plans are deleted from the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "carePlanStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore014OCKAnyReadOnlya4PlanC0P",
+      "text" : "OCKAnyReadOnlyCarePlanStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didDeleteCarePlans"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore06OCKAnyA4PlanP",
+      "text" : "OCKAnyCarePlan"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/carePlanStore(_:didDeleteCarePlans:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "carePlanStore(_:didDeleteCarePlans:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/careplanstore(_:diddeletecareplans:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/carePlanStore(_:didUpdateCarePlans:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time care plans are updated in the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "carePlanStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore014OCKAnyReadOnlya4PlanC0P",
+      "text" : "OCKAnyReadOnlyCarePlanStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdateCarePlans"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore06OCKAnyA4PlanP",
+      "text" : "OCKAnyCarePlan"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/carePlanStore(_:didUpdateCarePlans:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "carePlanStore(_:didUpdateCarePlans:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/careplanstore(_:didupdatecareplans:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/contactStore(_:didAddContacts:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time contacts are added to the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contactStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyContactC0P",
+      "text" : "OCKAnyReadOnlyContactStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didAddContacts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyContactP",
+      "text" : "OCKAnyContact"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/contactStore(_:didAddContacts:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contactStore(_:didAddContacts:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/contactstore(_:didaddcontacts:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/contactStore(_:didDeleteContacts:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time contacts are deleted from the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contactStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyContactC0P",
+      "text" : "OCKAnyReadOnlyContactStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didDeleteContacts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyContactP",
+      "text" : "OCKAnyContact"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/contactStore(_:didDeleteContacts:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contactStore(_:didDeleteContacts:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/contactstore(_:diddeletecontacts:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/contactStore(_:didUpdateContacts:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time contacts are updated in the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contactStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyContactC0P",
+      "text" : "OCKAnyReadOnlyContactStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdateContacts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyContactP",
+      "text" : "OCKAnyContact"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/contactStore(_:didUpdateContacts:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contactStore(_:didUpdateContacts:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/contactstore(_:didupdatecontacts:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/init(wrapping:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize by wrapping a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrapping"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore06OCKAnyC8Protocola",
+      "text" : "OCKAnyStoreProtocol"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/init(wrapping:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrapping:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/init(wrapping:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/notificationPublisher": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "notificationPublisher"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine12AnyPublisherV",
+      "text" : "AnyPublisher"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine10PublishersO",
+      "text" : "Publishers"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine10PublishersO5ShareC",
+      "text" : "Share"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine18PassthroughSubjectC",
+      "text" : "PassthroughSubject"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit20OCKStoreNotificationP",
+      "text" : "OCKStoreNotification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    },
+    {
+      "kind" : "text",
+      "text" : ">>."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine10PublishersO5ShareC6Outputa",
+      "text" : "Output"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine10PublishersO",
+      "text" : "Publishers"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine10PublishersO5ShareC",
+      "text" : "Share"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine18PassthroughSubjectC",
+      "text" : "PassthroughSubject"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit20OCKStoreNotificationP",
+      "text" : "OCKStoreNotification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    },
+    {
+      "kind" : "text",
+      "text" : ">>."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine10PublishersO5ShareC7Failurea",
+      "text" : "Failure"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/notificationPublisher",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "notificationPublisher",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/notificationpublisher"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/outcomeStore(_:didAddOutcomes:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time outcomes are added to the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyOutcomeC0P",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didAddOutcomes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didAddOutcomes:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outcomeStore(_:didAddOutcomes:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/outcomestore(_:didaddoutcomes:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/outcomeStore(_:didDeleteOutcomes:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time outcomes are added to the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyOutcomeC0P",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didDeleteOutcomes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didDeleteOutcomes:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outcomeStore(_:didDeleteOutcomes:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/outcomestore(_:diddeleteoutcomes:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/outcomeStore(_:didEncounterUnknownChange:)": {
+  "abstract" : [
+    {
+      "text" : "Called if outcomes in the store change, but it’s not possible to identify specifically what happened.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyOutcomeC0P",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didEncounterUnknownChange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didEncounterUnknownChange:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outcomeStore(_:didEncounterUnknownChange:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/outcomestore(_:didencounterunknownchange:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/outcomeStore(_:didUpdateOutcomes:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time outcomes are updated in the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyOutcomeC0P",
+      "text" : "OCKAnyReadOnlyOutcomeStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdateOutcomes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyOutcomeP",
+      "text" : "OCKAnyOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/outcomeStore(_:didUpdateOutcomes:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outcomeStore(_:didUpdateOutcomes:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/outcomestore(_:didupdateoutcomes:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/patientStore(_:didAddPatients:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time patients are added into the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "patientStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyPatientC0P",
+      "text" : "OCKAnyReadOnlyPatientStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didAddPatients"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyPatientP",
+      "text" : "OCKAnyPatient"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/patientStore(_:didAddPatients:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "patientStore(_:didAddPatients:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/patientstore(_:didaddpatients:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/patientStore(_:didDeletePatients:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time patients are deleted from the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "patientStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyPatientC0P",
+      "text" : "OCKAnyReadOnlyPatientStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didDeletePatients"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyPatientP",
+      "text" : "OCKAnyPatient"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/patientStore(_:didDeletePatients:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "patientStore(_:didDeletePatients:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/patientstore(_:diddeletepatients:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/patientStore(_:didUpdatePatients:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time patients are updated the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "patientStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore021OCKAnyReadOnlyPatientC0P",
+      "text" : "OCKAnyReadOnlyPatientStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdatePatients"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKAnyPatientP",
+      "text" : "OCKAnyPatient"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/patientStore(_:didUpdatePatients:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "patientStore(_:didUpdatePatients:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/patientstore(_:didupdatepatients:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/store": {
+  "abstract" : [
+    {
+      "text" : "The underlying database.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "store"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore06OCKAnyC8Protocola",
+      "text" : "OCKAnyStoreProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/store",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "store",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/store"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/taskStore(_:didAddTasks:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time tasks are added to the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore018OCKAnyReadOnlyTaskC0P",
+      "text" : "OCKAnyReadOnlyTaskStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didAddTasks"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/taskStore(_:didAddTasks:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskStore(_:didAddTasks:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/taskstore(_:didaddtasks:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/taskStore(_:didDeleteTasks:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time tasks are deleted from the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore018OCKAnyReadOnlyTaskC0P",
+      "text" : "OCKAnyReadOnlyTaskStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didDeleteTasks"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/taskStore(_:didDeleteTasks:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskStore(_:didDeleteTasks:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/taskstore(_:diddeletetasks:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager/taskStore(_:didUpdateTasks:)": {
+  "abstract" : [
+    {
+      "text" : "Called each time tasks are updated in the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "taskStore"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore018OCKAnyReadOnlyTaskC0P",
+      "text" : "OCKAnyReadOnlyTaskStore"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "didUpdateTasks"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore10OCKAnyTaskP",
+      "text" : "OCKAnyTask"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager\/taskStore(_:didUpdateTasks:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "taskStore(_:didUpdateTasks:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager\/taskstore(_:didupdatetasks:)"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKCarePlanStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from care plan stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKCarePlanStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCarePlanStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcareplanstoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKContactStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from contact stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKContactStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockcontactstoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKOutcomeStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from outcome stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKOutcomeStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockoutcomestoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from patient stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPatientStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientstoredelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskStoreDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types conforming to this protocol can receive callbacks from task stores.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStoreDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskStoreDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskStoreDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskStoreDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskstoredelegate"
+}
+}
+}
