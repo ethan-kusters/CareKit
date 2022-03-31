@@ -1,0 +1,703 @@
+{
+  "abstract" : [
+    {
+      "text" : "A query that limits which patients will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12CareKitStore15OCKPatientQueryV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKPatientQuery"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitStore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKPatientQuery"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "OCKPatientQuery"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKPatientQuery"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyPatientQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEntityQuery",
+        "doc:\/\/com.apple.CareKit\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/dateInterval",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/groupIdentifiers",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/ids",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/limit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/offset",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/remoteIDs",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/sortDescriptors",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/tags",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/versionIDs"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/Equatable-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/OCKAnyPatientQuery-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/OCKEntityQuery-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitstore\/ockpatientquery"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/SQ": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyPatientQuery": {
+  "abstract" : [
+    {
+      "text" : "A protocol that all patient queries are expected to conform to.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyPatientQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyPatientQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyPatientQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyPatientQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanypatientquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEntityQuery": {
+  "abstract" : [
+    {
+      "text" : "All queries that return non-ephemeral entities from the store are expected to conform to this protocol.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Examples of non-ephemeral entites are patients, care plans, contacts, tasks, and outcomes.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Ephemeral entities include events, adherence, and insights.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEntityQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEntityQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEntityQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEntityQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockentityquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which patients will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPatientQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/equatable-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/OCKAnyPatientQuery-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/OCKAnyPatientQuery-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyPatientQuery Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/ockanypatientquery-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/OCKEntityQuery-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/OCKEntityQuery-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKEntityQuery Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/ockentityquery-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/dateInterval": {
+  "abstract" : [
+    {
+      "text" : "A date interval for entities that should match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/dateInterval",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dateInterval",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/dateinterval"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/groupIdentifiers": {
+  "abstract" : [
+    {
+      "text" : "An array of group identifiers to match against.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "groupIdentifiers"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/groupIdentifiers",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "groupIdentifiers",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/groupidentifiers"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/ids": {
+  "abstract" : [
+    {
+      "text" : "An array of unique identifiers belonging to the entities which should match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ids"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/ids",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ids",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/ids"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/init()": {
+  "abstract" : [
+    {
+      "text" : "Initialize a new query with default properties.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/init()"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/limit": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of results that will be returned by the query. A nil value indicates no upper limit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "limit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/limit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "limit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/limit"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/offset": {
+  "abstract" : [
+    {
+      "text" : "An offset that can be used to paginate results.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "offset"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/offset",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "offset",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/offset"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/remoteIDs": {
+  "abstract" : [
+    {
+      "text" : "An array of remote IDs for entities that should match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remoteIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/remoteIDs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remoteIDs",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/remoteids"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/sortDescriptors": {
+  "abstract" : [
+    {
+      "text" : "The order in which the results will be sorted when returned from the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sortDescriptors"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore24OCKPatientSortDescriptorO",
+      "text" : "OCKPatientSortDescriptor"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/sortDescriptors",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sortDescriptors",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/sortdescriptors"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/tags": {
+  "abstract" : [
+    {
+      "text" : "An array of tags to match against. If an object’s tags contains one or more of entries, it will match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tags"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/tags",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tags",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/tags"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKPatientQuery/versionIDs": {
+  "abstract" : [
+    {
+      "text" : "Specific versions to be included in the query results.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "versionIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore17OCKLocalVersionIDV",
+      "text" : "OCKLocalVersionID"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKPatientQuery\/versionIDs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "versionIDs",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockpatientquery\/versionids"
+}
+}
+}

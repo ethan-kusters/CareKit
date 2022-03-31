@@ -1,0 +1,2727 @@
+{
+  "abstract" : [
+    {
+      "text" : "",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "CareKit",
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "CareKit"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactsListViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyPageViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyTasksPageViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailedContactViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKListViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleContactViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskViewSynchronizer",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarPageViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarViewSynchronizer"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyContactViewSynchronizerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyTaskViewSynchronizerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarControllerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarViewControllerDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarViewSynchronizerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartControllerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartViewControllerDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartViewSynchronizerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactControllerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewControllerDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewSynchronizerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactsListViewControllerDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyPageViewControllerDataSource",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyPageViewControllerDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyTasksPageViewControllerDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKStoreNotification",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskControllerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewControllerDelegate",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewSynchronizerProtocol",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarPageViewControllerDelegate"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCarePlanNotification",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactNotification",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKOutcomeNotification",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKPatientNotification",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskNotification"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailedContactController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailedContactViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleContactController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleContactViewController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskController",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarViewController"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKStoreNotificationCategory"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKAnyContactViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a type erased view synchronizer for contacts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContactViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyContactViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyContactViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyContactViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockanycontactviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKAnyTaskViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a type erased view synchronizer for tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKAnyTaskViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTaskViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockanytaskviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskController": {
+  "abstract" : [
+    {
+      "text" : "A task controller that keeps a record of events sorted by their dates.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKButtonLogTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKButtonLogTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKButtonLogTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKButtonLogTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKButtonLogTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockbuttonlogtaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of updating a calendar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarControllerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes an object capable of tracking the state of a calendar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarControllerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarControllerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarControllerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarControllerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontrollerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that displays a calendar view and keep it synchronized with a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types wishing to receive updates from calendar view controllers can conform to this protocol.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a view synchronizer for calendars.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCarePlanNotification": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanNotification"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCarePlanNotification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCarePlanNotification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCarePlanNotification",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcareplannotification"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCartesianChartController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCartesianChartController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcartesianchartcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCartesianChartViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCartesianChartViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcartesianchartviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCartesianChartViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A chart view controller capable of displaying charts drawn on a Cartesian coordinate system.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCartesianChartViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCartesianChartViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCartesianChartViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcartesianchartviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChartController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of updating charts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChartController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchartcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChartControllerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes an object capable of tracking and updating the state of a chart.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartControllerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartControllerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartControllerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChartControllerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchartcontrollerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChartViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that displays a chart view and keep it synchronized with a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChartViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchartviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChartViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types wishing to receive updates from chart view controllers can conform to this protocol.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChartViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchartviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChartViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a view synchronizer for charts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChartViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChartViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChartViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchartviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChecklistTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChecklistTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchecklisttaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChecklistTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChecklistTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchecklisttaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKChecklistTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer specialized for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKChecklistTaskView",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKChecklistTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKChecklistTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKChecklistTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockchecklisttaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of watching and updating contacts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactControllerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes an object capable of tracking and updating the state of a contact.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactControllerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactControllerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactControllerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactControllerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactcontrollerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactNotification": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactNotification"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactNotification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactNotification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactNotification",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactnotification"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that displays a contact view and keep it synchronized with a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types wishing to receive updates from contact view controllers can conform to this protocol.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a view synchronizer for contacts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactsListViewController": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKListViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that automatically queries and displays contacts in the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Store",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " using",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKDetailedContactViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactsListViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactsListViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactsListViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactsListViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactslistviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKContactsListViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Classes that conform to this protocol can recieve updates about the state of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKContactsListViewControllerDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactsListViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKContactsListViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKContactsListViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKContactsListViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcontactslistviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDailyPageViewController": {
+  "abstract" : [
+    {
+      "text" : "Displays a calendar page view controller in the header, and a view controllers in the body. The view controllers must",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "be manually queried and set from outside of the class.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyPageViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyPageViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyPageViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDailyPageViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdailypageviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDailyPageViewControllerDataSource": {
+  "abstract" : [
+    {
+      "text" : "Any class that can provide content for an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKDailyPageViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " should conform to this protocol.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyPageViewControllerDataSource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyPageViewControllerDataSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyPageViewControllerDataSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDailyPageViewControllerDataSource",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdailypageviewcontrollerdatasource"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDailyPageViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Conform to this protocol to receive callbacks when important events occur in an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKDailyPageViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyPageViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyPageViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyPageViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDailyPageViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdailypageviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDailyTasksPageViewController": {
+  "abstract" : [
+    {
+      "text" : "Displays a calendar page view controller in the header, and a collection of tasks",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "in the body. The tasks are automatically queried based on the selection in the calendar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyTasksPageViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyTasksPageViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyTasksPageViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDailyTasksPageViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdailytaskspageviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDailyTasksPageViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events related to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKDailyTasksPageViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyTasksPageViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDailyTasksPageViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDailyTasksPageViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDailyTasksPageViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdailytaskspageviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDataSeriesConfiguration": {
+  "abstract" : [
+    {
+      "text" : "A configuration object that specifies which data should be queried and how it should be displayed by the graph.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeriesConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDataSeriesConfiguration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDataSeriesConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDataSeriesConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdataseriesconfiguration"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDetailViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that can be customized to display the details of another view.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The detail view’s content stack view can be populated with arbitrary content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDetailViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdetailviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDetailedContactController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailedContactController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDetailedContactController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdetailedcontactcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDetailedContactViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailedContactViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDetailedContactViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdetailedcontactviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKDetailedContactViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A view synchroinzer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKDetailedContactView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKDetailedContactViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKDetailedContactViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKDetailedContactViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockdetailedcontactviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A task view controller that displays multiple events in a grid collection view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKGridTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A view synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKGridTaskView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKGridTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKGridTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKGridTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockgridtaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKInstructionsTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer specialized for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKInstructionsTaskView",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKInstructionsTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKInstructionsTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKInstructionsTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockinstructionstaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKListViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller displaying views in an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKListView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKDailyPageViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " uses ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKListViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "s to display scrollable stacks of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "embedded view controllers.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKListViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKListViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKListViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKListViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocklistviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKOutcomeNotification": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeNotification"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKOutcomeNotification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKOutcomeNotification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKOutcomeNotification",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockoutcomenotification"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKPatientNotification": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientNotification"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKPatientNotification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKPatientNotification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKPatientNotification",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockpatientnotification"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleContactController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleContactController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleContactController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimplecontactcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleContactViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleContactViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleContactViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimplecontactviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleContactViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A view synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSimpleContactView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleContactViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleContactViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleContactViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimplecontactviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleTaskController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimpletaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that display and updates a single event that can be completed or uncompleted by tapping a large button.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimpletaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSimpleTaskViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A synchronizer specialized for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSimpleTaskView",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSimpleTaskViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSimpleTaskViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSimpleTaskViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksimpletaskviewsynchronizer"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKStoreNotification": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreNotification"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKStoreNotification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreNotification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStoreNotification",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockstorenotification"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKStoreNotificationCategory": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreNotificationCategory"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKStoreNotificationCategory",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKStoreNotificationCategory"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKStoreNotificationCategory",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockstorenotificationcategory"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizationContext": {
+  "abstract" : [
+    {
+      "text" : "Provides context for a view model value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizationContext",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizationContext"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizationContext",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizationcontext"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKSynchronizedStoreManager": {
+  "abstract" : [
+    {
+      "text" : "An ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKSynchronizedStoreManager",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " wraps any store that conforms to ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and provides synchronization to CareKit view",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "controllers by listening in on the store’s activity by setting itself as the store delegate.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKSynchronizedStoreManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKSynchronizedStoreManager",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocksynchronizedstoremanager"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of watching and updating tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskControllerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes an object capable of tracking and updating the state of a task.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskControllerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskControllerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskControllerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskControllerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskcontrollerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskEvents": {
+  "abstract" : [
+    {
+      "text" : "A data structure that holds events from a multiplicity of tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskEvents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskEvents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskevents"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskNotification": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskNotification"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskNotification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskNotification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskNotification",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktasknotification"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that displays a task view and keep it synchronized with a store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Types wishing to receive updates from task view controllers can conform to this protocol.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKTaskViewSynchronizerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes a view synchronizer for tasks.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewSynchronizerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKTaskViewSynchronizerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskViewSynchronizerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskViewSynchronizerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ocktaskviewsynchronizerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKWeekCalendarController": {
+  "abstract" : [
+    {
+      "text" : "A calendar controller that handles a calendar showing a single week.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWeekCalendarController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockweekcalendarcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKWeekCalendarPageViewController": {
+  "abstract" : [
+    {
+      "text" : "A view controller that allows paging through adjacent weeks of task adherence content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarPageViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarPageViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarPageViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWeekCalendarPageViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockweekcalendarpageviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKWeekCalendarPageViewControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "Handles events related to an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKWeekCalendarPageViewController",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarPageViewControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarPageViewControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarPageViewControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWeekCalendarPageViewControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockweekcalendarpageviewcontrollerdelegate"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKWeekCalendarViewController": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarViewController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarViewController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarViewController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWeekCalendarViewController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockweekcalendarviewcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKWeekCalendarViewSynchronizer": {
+  "abstract" : [
+    {
+      "text" : "A view synchronizer that creates and updates an ",
+      "type" : "text"
+    },
+    {
+      "code" : "OCKWeekCalendarView",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarViewSynchronizer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarViewSynchronizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarViewSynchronizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWeekCalendarViewSynchronizer",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockweekcalendarviewsynchronizer"
+}
+}
+}

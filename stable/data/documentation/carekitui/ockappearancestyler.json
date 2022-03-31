@@ -1,0 +1,533 @@
+{
+  "abstract" : [
+    {
+      "text" : "Defines constants for view appearance styling.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9CareKitUI19OCKAppearanceStylerP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKAppearanceStyler"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitUI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKAppearanceStyler"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "OCKAppearanceStyler"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKAppearanceStyler"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyle"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/borderWidth1-4zuu7",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/borderWidth2-14duf",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/cornerRadius1-924wr",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/cornerRadius2-63w9y",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/lineWidth1-gjxx",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/opacity1-15ihz",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/shadowOffset1-4hagz",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/shadowOpacity1-3xc01",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/shadowRadius1-7t7xw"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitui\/ockappearancestyler"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitUI",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyle": {
+  "abstract" : [
+    {
+      "text" : "Concrete object for appearance constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAppearanceStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyle"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler": {
+  "abstract" : [
+    {
+      "text" : "Defines constants for view appearance styling.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAppearanceStyler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAppearanceStyler",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/borderWidth1-4zuu7": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "borderWidth1"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/borderWidth1-4zuu7",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "borderWidth1",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/borderwidth1-4zuu7"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/borderWidth2-14duf": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "borderWidth2"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/borderWidth2-14duf",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "borderWidth2",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/borderwidth2-14duf"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/cornerRadius1-924wr": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cornerRadius1"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/cornerRadius1-924wr",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "cornerRadius1",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/cornerradius1-924wr"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/cornerRadius2-63w9y": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cornerRadius2"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/cornerRadius2-63w9y",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "cornerRadius2",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/cornerradius2-63w9y"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/lineWidth1-gjxx": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lineWidth1"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/lineWidth1-gjxx",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "lineWidth1",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/linewidth1-gjxx"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/opacity1-15ihz": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opacity1"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/opacity1-15ihz",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "opacity1",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/opacity1-15ihz"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/shadowOffset1-4hagz": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowOffset1"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGSize",
+      "text" : "CGSize"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/shadowOffset1-4hagz",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "shadowOffset1",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/shadowoffset1-4hagz"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/shadowOpacity1-3xc01": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowOpacity1"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/shadowOpacity1-3xc01",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "shadowOpacity1",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/shadowopacity1-3xc01"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKAppearanceStyler/shadowRadius1-7t7xw": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowRadius1"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKAppearanceStyler\/shadowRadius1-7t7xw",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "shadowRadius1",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockappearancestyler\/shadowradius1-7t7xw"
+}
+}
+}

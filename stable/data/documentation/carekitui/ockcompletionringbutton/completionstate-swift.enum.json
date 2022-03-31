@@ -1,0 +1,338 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9CareKitUI23OCKCompletionRingButtonC15CompletionStateO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CompletionState"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitUI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CompletionState"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "OCKCompletionRingButton.CompletionState"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CompletionState"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/dimmed",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/empty",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/progress(_:)",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/zero"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitui\/ockcompletionringbutton\/completionstate-swift.enum"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/SQ": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitUI",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton": {
+  "abstract" : [
+    {
+      "text" : "A selectable completion ring with an inner check view and a title label.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingButton"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCompletionRingButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCompletionRingButton",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton/CompletionState-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CompletionState"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CompletionState"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCompletionRingButton.CompletionState",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton\/completionstate-swift.enum"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton/CompletionState-swift.enum/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton\/completionstate-swift.enum\/equatable-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton/CompletionState-swift.enum/dimmed": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dimmed"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/dimmed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "OCKCompletionRingButton.CompletionState.dimmed",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton\/completionstate-swift.enum\/dimmed"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton/CompletionState-swift.enum/empty": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "empty"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/empty",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "OCKCompletionRingButton.CompletionState.empty",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton\/completionstate-swift.enum\/empty"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton/CompletionState-swift.enum/progress(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "progress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/progress(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "OCKCompletionRingButton.CompletionState.progress(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton\/completionstate-swift.enum\/progress(_:)"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKCompletionRingButton/CompletionState-swift.enum/zero": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zero"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKCompletionRingButton\/CompletionState-swift.enum\/zero",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "OCKCompletionRingButton.CompletionState.zero",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcompletionringbutton\/completionstate-swift.enum\/zero"
+}
+}
+}

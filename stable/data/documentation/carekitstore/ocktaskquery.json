@@ -1,0 +1,864 @@
+{
+  "abstract" : [
+    {
+      "text" : "A query that limits which tasks will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12CareKitStore12OCKTaskQueryV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKTaskQuery"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKitStore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKTaskQuery"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "OCKTaskQuery"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKTaskQuery"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTaskQuery",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEntityQuery",
+        "doc:\/\/com.apple.CareKit\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/carePlanIDs",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/carePlanRemoteIDs",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/carePlanVersionIDs",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/dateInterval",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/excludesTasksWithNoEvents",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/groupIdentifiers",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/ids",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/limit",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/offset",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/remoteIDs",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/sortDescriptors",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/tags",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/versionIDs"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/Equatable-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/OCKAnyTaskQuery-Implementations",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/OCKEntityQuery-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitstore\/ocktaskquery"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/SQ": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitStore",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKAnyTaskQuery": {
+  "abstract" : [
+    {
+      "text" : "A protocol that all task queries are expected to conform to.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKAnyTaskQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKAnyTaskQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKAnyTaskQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockanytaskquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKEntityQuery": {
+  "abstract" : [
+    {
+      "text" : "All queries that return non-ephemeral entities from the store are expected to conform to this protocol.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Examples of non-ephemeral entites are patients, care plans, contacts, tasks, and outcomes.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Ephemeral entities include events, adherence, and insights.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKEntityQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKEntityQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKEntityQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKEntityQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ockentityquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery": {
+  "abstract" : [
+    {
+      "text" : "A query that limits which tasks will be returned when fetching.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKTaskQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKTaskQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/equatable-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/OCKAnyTaskQuery-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/OCKAnyTaskQuery-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKAnyTaskQuery Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/ockanytaskquery-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/OCKEntityQuery-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/OCKEntityQuery-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OCKEntityQuery Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/ockentityquery-implementations"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/carePlanIDs": {
+  "abstract" : [
+    {
+      "text" : "The IDs of care plans for which tasks should match.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "carePlanIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/carePlanIDs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "carePlanIDs",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/careplanids"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/carePlanRemoteIDs": {
+  "abstract" : [
+    {
+      "text" : "The remote IDs of the care plans for which tasks should match.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "carePlanRemoteIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/carePlanRemoteIDs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "carePlanRemoteIDs",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/careplanremoteids"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/carePlanVersionIDs": {
+  "abstract" : [
+    {
+      "text" : "The version of the care plans for which tasks should match.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "carePlanVersionIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore17OCKLocalVersionIDV",
+      "text" : "OCKLocalVersionID"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/carePlanVersionIDs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "carePlanVersionIDs",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/careplanversionids"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/dateInterval": {
+  "abstract" : [
+    {
+      "text" : "A date interval for entities that should match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/dateInterval",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dateInterval",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/dateinterval"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/excludesTasksWithNoEvents": {
+  "abstract" : [
+    {
+      "text" : "Determines if tasks with no events should be included in the query results or not. False be default.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "excludesTasksWithNoEvents"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/excludesTasksWithNoEvents",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "excludesTasksWithNoEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/excludestaskswithnoevents"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/groupIdentifiers": {
+  "abstract" : [
+    {
+      "text" : "An array of group identifiers to match against.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "groupIdentifiers"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/groupIdentifiers",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "groupIdentifiers",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/groupidentifiers"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/ids": {
+  "abstract" : [
+    {
+      "text" : "An array of unique identifiers belonging to the entities which should match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ids"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/ids",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ids",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/ids"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/init()": {
+  "abstract" : [
+    {
+      "text" : "Initialize a new query with default properties.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/init()"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/limit": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of results that will be returned by the query. A nil value indicates no upper limit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "limit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/limit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "limit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/limit"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/offset": {
+  "abstract" : [
+    {
+      "text" : "An offset that can be used to paginate results.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "offset"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/offset",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "offset",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/offset"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/remoteIDs": {
+  "abstract" : [
+    {
+      "text" : "An array of remote IDs for entities that should match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remoteIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/remoteIDs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remoteIDs",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/remoteids"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/sortDescriptors": {
+  "abstract" : [
+    {
+      "text" : "The order in which the results will be sorted when returned from the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sortDescriptors"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore21OCKTaskSortDescriptorO",
+      "text" : "OCKTaskSortDescriptor"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/sortDescriptors",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sortDescriptors",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/sortdescriptors"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/tags": {
+  "abstract" : [
+    {
+      "text" : "An array of tags to match against. If an object’s tags contains one or more of entries, it will match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tags"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/tags",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tags",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/tags"
+},
+"doc://com.apple.CareKit/documentation/CareKitStore/OCKTaskQuery/versionIDs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "versionIDs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore17OCKLocalVersionIDV",
+      "text" : "OCKLocalVersionID"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitStore\/OCKTaskQuery\/versionIDs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "versionIDs",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitstore\/ocktaskquery\/versionids"
+}
+}
+}

@@ -1,0 +1,576 @@
+{
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of updating a calendar.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7CareKit21OCKCalendarControllerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OCKCalendarController"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CareKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OCKCalendarController"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OCKCalendarController"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OCKCalendarController"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarController"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/7Combine16ObservableObjectP",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarControllerProtocol"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/init(dateInterval:storeManager:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/dateInterval",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/objectWillChange",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/store",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/storeManager"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/fetchAndObserveAdherence(usingAggregator:errorHandler:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekit\/ockcalendarcontroller"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/com.apple.CareKit\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://com.apple.CareKit/documentation/CareKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKit",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController": {
+  "abstract" : [
+    {
+      "text" : "A basic controller capable of updating a calendar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController/dateInterval": {
+  "abstract" : [
+    {
+      "text" : "The date interval displayed by the calendar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/dateInterval",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dateInterval",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller\/dateinterval"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController/fetchAndObserveAdherence(usingAggregator:errorHandler:)": {
+  "abstract" : [
+    {
+      "text" : "Begin observing adherence in the calendar’s date interval.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchAndObserveAdherence"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "usingAggregator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore22OCKAdherenceAggregatorO",
+      "text" : "OCKAdherenceAggregator"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "errorHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore13OCKStoreErrorO",
+      "text" : "OCKStoreError"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/fetchAndObserveAdherence(usingAggregator:errorHandler:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchAndObserveAdherence(usingAggregator:errorHandler:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller\/fetchandobserveadherence(usingaggregator:errorhandler:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController/init(dateInterval:storeManager:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize the controller.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation12DateIntervalV",
+      "text" : "DateInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/init(dateInterval:storeManager:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(dateInterval:storeManager:)",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller\/init(dateinterval:storemanager:)"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController/objectWillChange": {
+  "abstract" : [
+    {
+      "text" : "A publisher that publishes completion ring states when events change in the store.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "objectWillChange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine19CurrentValueSubjectC",
+      "text" : "CurrentValueSubject"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI23OCKCompletionRingButtonC",
+      "text" : "OCKCompletionRingButton"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CareKitUI23OCKCompletionRingButtonC15CompletionStateO",
+      "text" : "CompletionState"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/objectWillChange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "objectWillChange",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller\/objectwillchange"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController/store": {
+  "abstract" : [
+    {
+      "text" : "A reference to a store that can be used to fetch and update events.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "store"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12CareKitStore011OCKAnyEventC0P",
+      "text" : "OCKAnyEventStore"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/store",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "store",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller\/store"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarController/storeManager": {
+  "abstract" : [
+    {
+      "text" : "The store manager against which the calendar will be synchronized.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "storeManager"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7CareKit27OCKSynchronizedStoreManagerC",
+      "text" : "OCKSynchronizedStoreManager"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarController\/storeManager",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "storeManager",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontroller\/storemanager"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKCalendarControllerProtocol": {
+  "abstract" : [
+    {
+      "text" : "Describes an object capable of tracking the state of a calendar.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarControllerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKCalendarControllerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKCalendarControllerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKCalendarControllerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockcalendarcontrollerprotocol"
+},
+"doc://com.apple.CareKit/documentation/CareKit/OCKWeekCalendarController": {
+  "abstract" : [
+    {
+      "text" : "A calendar controller that handles a calendar showing a single week.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKit\/OCKWeekCalendarController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKWeekCalendarController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKWeekCalendarController",
+  "type" : "topic",
+  "url" : "\/documentation\/carekit\/ockweekcalendarcontroller"
+}
+}
+}

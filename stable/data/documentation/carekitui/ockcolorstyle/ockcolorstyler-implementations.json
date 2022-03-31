@@ -1,0 +1,876 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/OCKColorStyler-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "CareKitUI"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "OCKColorStyler Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/black",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/clear",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customBackground",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customBlue",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customFill",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray2",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray3",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray4",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray5",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGroupedBackground",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/label",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/quaternaryCustomFill",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryCustomBackground",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryCustomFill",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryCustomGroupedBackground",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryLabel",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/separator",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/tertiaryCustomFill",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/tertiaryCustomGroupedBackground",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/tertiaryLabel",
+        "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/white"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/carekitui\/ockcolorstyle\/ockcolorstyler-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.apple.CareKit/documentation/CareKitUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CareKitUI",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle": {
+  "abstract" : [
+    {
+      "text" : "Concrete object for color constants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OCKColorStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OCKColorStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OCKColorStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/black": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "black"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/black",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "black",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/black"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/clear": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clear"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/clear",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clear",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/clear"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customBackground": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customBackground",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customBackground",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/custombackground"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customBlue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customBlue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customBlue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customBlue",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customblue"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customFill": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customFill"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customFill",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customFill",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customfill"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customGray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customGray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customGray",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customgray"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customGray2": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customGray2"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customGray2",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customgray2"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customGray3": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customGray3"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray3",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customGray3",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customgray3"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customGray4": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customGray4"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray4",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customGray4",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customgray4"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customGray5": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customGray5"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGray5",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customGray5",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customgray5"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/customGroupedBackground": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "customGroupedBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/customGroupedBackground",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "customGroupedBackground",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/customgroupedbackground"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/label": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "label"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/label",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "label",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/label"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/quaternaryCustomFill": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "quaternaryCustomFill"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/quaternaryCustomFill",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "quaternaryCustomFill",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/quaternarycustomfill"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/secondaryCustomBackground": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "secondaryCustomBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryCustomBackground",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "secondaryCustomBackground",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/secondarycustombackground"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/secondaryCustomFill": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "secondaryCustomFill"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryCustomFill",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "secondaryCustomFill",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/secondarycustomfill"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/secondaryCustomGroupedBackground": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "secondaryCustomGroupedBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryCustomGroupedBackground",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "secondaryCustomGroupedBackground",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/secondarycustomgroupedbackground"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/secondaryLabel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "secondaryLabel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/secondaryLabel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "secondaryLabel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/secondarylabel"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/separator": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "separator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/separator",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "separator",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/separator"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/tertiaryCustomFill": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tertiaryCustomFill"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/tertiaryCustomFill",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tertiaryCustomFill",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/tertiarycustomfill"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/tertiaryCustomGroupedBackground": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tertiaryCustomGroupedBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/tertiaryCustomGroupedBackground",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tertiaryCustomGroupedBackground",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/tertiarycustomgroupedbackground"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/tertiaryLabel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tertiaryLabel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/tertiaryLabel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tertiaryLabel",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/tertiarylabel"
+},
+"doc://com.apple.CareKit/documentation/CareKitUI/OCKColorStyle/white": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "white"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.apple.CareKit\/documentation\/CareKitUI\/OCKColorStyle\/white",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "white",
+  "type" : "topic",
+  "url" : "\/documentation\/carekitui\/ockcolorstyle\/white"
+}
+}
+}
